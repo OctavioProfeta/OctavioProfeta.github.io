@@ -15,10 +15,10 @@ Here, at WorkingTeam2023™, we want to know what are societal fears. So, what a
 
 We want to know whereas these subjects appears in the cinema industry, and whether the movies treating them know some kind of success, aswell as point geographical and temporal trends
 
-<style>
-#frame { width: 1000px; height: 800px; border: 0px solid black; }
-/* #frame { zoom: 1.25; -moz-transform: scale(1.25); -moz-transform-origin: 0 0; } */
-</style>
+<!-- <style>
+#frame { width: 800px; height: 520px; border: 1px solid black; }
+#frame { zoom: 0.75; -moz-transform: scale(0.75); -moz-transform-origin: 0 0; }
+</style> -->
 
-<iframe id="frame" src="assets/lda.html" > 
+<iframe src="assets/lda.html" width="1200px" height="900px" frameborder="0"> 
 </iframe>
