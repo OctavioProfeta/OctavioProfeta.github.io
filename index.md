@@ -18,6 +18,3 @@ We want to know whereas these subjects appears in the cinema industry, and wheth
 sadk
 
 {% include assets/lda.html style="text-align: center;" %}
-<!-- <div style="text-align:center">
-<iframe src="assets/lda.html" width="800px" height="800px" frameborder="0"></iframe>
-</div> -->s
