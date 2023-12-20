@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Societal fears and movies
 ---
 {: style="text-align: justify;"}
