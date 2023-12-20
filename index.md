@@ -17,4 +17,5 @@ We want to know whereas these subjects appears in the cinema industry, and wheth
 
 sadk
 
-{% include assets/lda.html style="text-align: center;" %}
+{: style="text-align: center;"}
+{% include assets/lda.html %}
