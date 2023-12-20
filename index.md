@@ -18,4 +18,4 @@ We want to know whereas these subjects appears in the cinema industry, and wheth
 sadk
 
 {: style="text-align: center;"}
-{% include assets/lda.html %}
+{% include lda.html %}
