@@ -20,5 +20,4 @@ We want to know whereas these subjects appears in the cinema industry, and wheth
 #frame { zoom: 0.75; -moz-transform: scale(0.75); -moz-transform-origin: 0 0; }
 </style> -->
 
-<iframe src="assets/lda.html" width="1200px" height="900px" frameborder="0"> 
-</iframe>
+<p align="center"><iframe src="assets/lda.html" width="1200px" height="900px" frameborder="0"></iframe></p>
