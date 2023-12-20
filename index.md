@@ -17,7 +17,7 @@ We want to know whereas these subjects appears in the cinema industry, and wheth
 
 <style>
 #frame { width: 750px; height: 530px; border: 0px solid black; }
-#frame { zoom: 0.75; -moz-transform: scale(0.75); -moz-transform-origin: 0 0; }
+#frame { zoom: 1.25; -moz-transform: scale(1.25); -moz-transform-origin: 0 0; }
 </style>
 
 <iframe id="frame" src="assets/lda.html" > 
