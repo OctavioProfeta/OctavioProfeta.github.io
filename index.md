@@ -13,9 +13,14 @@ Here, at WorkingTeam2023™, we want to know what are societal fears. So, what a
 *   Technology Advancement
 *   Aliens
 
-We want to know whereas these subjects appears in the cinema industry, and whether the movies treating them know some kind of success, aswell as point geographical and temporal trends
+We want to know whereas these subjects appears in the cinema industry, and whether the movies treating them know some kind of success, aswell as point geographical and temporal trends.
 
-sadk
+## The dataset
 
-{: style="text-align: left;"}
-{% include lda.html %}
+We will be using the [Movie Summry Corpus](https://www.cs.cmu.edu/~ark/personas/), which is a dataset containing more than 42'000 movie plot summaries, aswell as some other corresponding metadata. 
+
+
+<iframe src="assets/plot/inflation-plot.html" width="750px" height="530px" frameborder="0" position="relative">Genre plot</iframe>
+
+<!-- {: style="text-align: left;"}
+{% include lda.html %} -->
