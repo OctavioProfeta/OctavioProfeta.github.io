@@ -19,8 +19,8 @@ We want to know whereas these subjects appears in the cinema industry, and wheth
 
 We will be using the [Movie Summry Corpus](https://www.cs.cmu.edu/~ark/personas/), which is a dataset containing more than 42'000 movie plot summaries, aswell as some other corresponding metadata. 
 
-<div margin=0>
-<iframe src="lda.html" width="750px" height="530px" frameborder="0" position="relative">Genre plot</iframe>
+<div>
+<iframe src="lda.html" width="750px" height="530px" frameborder="0" position="relative" scrolling="no" overflow="hidden">Genre plot</iframe>
 </div>
 <!-- {: style="text-align: left;"}
 {% include lda.html %} -->
