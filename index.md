@@ -15,8 +15,9 @@ Here, at WorkingTeam2023™, we want to know what are societal fears. So, what a
 
 We want to know whereas these subjects appears in the cinema industry, and whether the movies treating them know some kind of success, aswell as point geographical and temporal trends
 
-alallala
+sadk
 
-<div style="text-align:center">
+{% include assets/lda.html %}
+<!-- <div style="text-align:center">
 <iframe src="assets/lda.html" width="800px" height="800px" frameborder="0"></iframe>
-</div>
+</div> -->
