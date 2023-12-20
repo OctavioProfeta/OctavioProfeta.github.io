@@ -27,6 +27,6 @@ div
     margin: 0 auto; 
   } 
 </style> -->
-<div style="float: right">
+<div style="float: center">
 <iframe src="assets/lda.html" width="1210px" height="800px" frameborder="0"></iframe>
 </div>
