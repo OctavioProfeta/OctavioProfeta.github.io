@@ -21,4 +21,4 @@ sksksks
 #frame { zoom: 0.75; -moz-transform: scale(0.75); -moz-transform-origin: 0 0; }
 </style> -->
 
-<iframe src="assets/lda.html" width="1200px" height="900px" frameborder="0" position="center"></iframe>
+<iframe src="assets/lda.html" width="1210px" height="850px" frameborder="0" position="justify"></iframe>
