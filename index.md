@@ -13,4 +13,7 @@ Here, at WorkingTeam2023™, we want to know what are societal fears. So, what a
 *   Technology Advancement
 *   Aliens
 
-<iframe src="assets/lda.html" width="750px" height="530px" frameborder="0" allowfullscreen=True position="relative">Genre plot</iframe>
+We want to know whereas these subjects appears in the cinema industry, and whether the movies treating them know some kind of success, aswell as point geographical and temporal trends
+
+<iframe src="assets/lda.html" width="750px" height="530px" frameborder="0" allowfullscreen=True> 
+</iframe>
