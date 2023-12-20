@@ -20,10 +20,11 @@ author: WorkingTeam2023
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Us: "aboutme"
   Resources:
     - Movie Summary Corpus: "https://www.cs.cmu.edu/~ark/personas/"
     - ADA website: "https://epfl-ada.github.io/teaching/fall2023/cs401/"
+    - Github Repository: "https://github.com/epfl-ada/ada-2023-project-workingteam2023"
 
 ################
 # --- Logo --- #
