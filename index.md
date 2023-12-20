@@ -18,5 +18,5 @@ We want to know whereas these subjects appears in the cinema industry, and wheth
 alallala
 
 <div style="text-align:center">
-<iframe src="assets/lda.html" width="1210px" height="800px" frameborder="0"></iframe>
+<iframe src="assets/lda.html" width="800px" height="800px" frameborder="0"></iframe>
 </div>
