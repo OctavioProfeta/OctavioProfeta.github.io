@@ -17,7 +17,7 @@ We want to know whereas these subjects appears in the cinema industry, and wheth
 
 sadk</div>
 
-{% include assets/lda.html %}
+{% include lda.html %}
 <!-- <div style="text-align:center">
 <iframe src="assets/lda.html" width="800px" height="800px" frameborder="0"></iframe>
 </div> -->
