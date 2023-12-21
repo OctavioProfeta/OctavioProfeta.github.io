@@ -57,4 +57,10 @@ War appears naturaly in the most reccurent topics. It is also on of the most sal
 
 <iframe src="lda_genre_war.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
 
-Here, we can distingish 4 topics; the first one represent the pacific theather of the second World War. We can tell by terms such as '*japanese*', being the most frequent term within the topic, '*american*', '*hitler*' or '*boat*'. The second topic represent mostly the Vietnam War, with terms such as '*vietnam*' or '*vietnamese*'. The third topic seems to englobe war in general, with mostly generic war terms. The forth topic represents the european theater of the second World War. This is clearly seen with terms such as '*jew*', '*jewish*' or '*nazi*'. We can see that the second World War is the most represented war in movies, with 2 topics out of 4. This is not surprising, as the second World War can be considered the most important war in the history of mankind.
+Here, we can distingish 4 topics; 
+* The first one represent the pacific theather of the second World War. We can tell by terms such as '*japanese*', being the most frequent term within the topic, '*american*', '*hitler*' or '*boat*'. 
+* The second topic represent mostly the Vietnam War, with terms such as '*vietnam*' or '*vietnamese*'. 
+* The third topic seems to englobe war in general, with mostly generic war terms. 
+* The forth topic represents the european theater of the second World War. This is clearly seen with terms such as '*jew*', '*jewish*' or '*nazi*'.
+
+ We can see that the second World War is the most represented war in movies, with 2 topics out of 4. This is not surprising, as the second World War can be considered the most important war in the history of mankind.
