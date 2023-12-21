@@ -98,9 +98,9 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 *   Economical Collapse : '*economic_crisis*', '*financial_collapse*', '*recession*', '*depression*'
 *   Technological Advancement : '*robotics*', '*artificial_intelligence*', '*automation'*, '*data_science*' (yes, very scary indeed!)
 *   Aliens : '*extraterrestrial*', '*alien*', '*UFO*', '*alien_abduction*'
-<div class="center">
+<p align="center">
 <iframe src="test_map.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
-</div>
+</p>
 
 {: style="text-align: justify;"}
-aslkdaslkdjsalk
+ffgadafaslfkaslkfjasklfjasljkklfjsajafkslfajklsjklafsjklafs
