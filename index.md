@@ -27,12 +27,12 @@ We will be using the [Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas
 {: style="text-align: justify;"}
 Hold on ! Let's first take a look at our data, and start by first seeing how many films have been produced through the years 
 
-<iframe src="movie_release_years.html" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="movie_release_years.html" width="750px" height="400px" frameborder="0" position="relative">Genre plot</iframe>
 
 {: style="text-align: justify;"}
 We clearly see the trend here : The movie industry has grown largely during the recent years, more specificaly at the start of the 90s ! What about country movie production ? Which country is the more productive ?
 
-<iframe src="top_10_countries.html" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="top_10_countries.html" width="750px" height="400px" frameborder="0" position="relative">Genre plot</iframe>
 
 {: style="text-align: justify;"}
 No surprises here, the United States of America is by far the most productive country, followed by India with Bollywood and the United Kingdom, almost tied for second place. The USA are responsible for more than 39% percent of the movie produced ! We need to keep in mind that the analysis we will be doing will be biased towards the USA.
