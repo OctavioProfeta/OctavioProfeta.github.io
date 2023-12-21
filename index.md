@@ -27,12 +27,16 @@ We will be using the [Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas
 {: style="text-align: justify;"}
 Hold on ! Let's first take a look at our data, and start by first seeing how many films have been produced through the years 
 
+<p align="center">
 <iframe src="movie_release_years.html" width="750px" height="400px" frameborder="0" position="relative">Genre plot</iframe>
+</p>
 
 {: style="text-align: justify;"}
 We clearly see the trend here : The movie industry has grown largely during the recent years, more specificaly at the start of the 90s ! What about country movie production ? Which country is the more productive ?
 
+<p align="center">
 <iframe src="top_10_countries.html" width="750px" height="400px" frameborder="0" position="relative">Genre plot</iframe>
+</p>
 
 {: style="text-align: justify;"}
 No surprises here, the United States of America is by far the most productive country, followed by India with Bollywood and the United Kingdom, almost tied for second place. The USA are responsible for more than 39% percent of the movie produced ! We need to keep in mind that the analysis we will be doing will be biased towards the USA.
@@ -42,7 +46,9 @@ No surprises here, the United States of America is by far the most productive co
 {: style="text-align: justify;"}
 Let's start by analysing which are the recurrent topic in movies. By using topic detection algorithms on the plot summaries, we can extract major subjects from the movie plots. Looking for 8 topics yields the best results :
 
+<p align="center">
 <iframe src="lda.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
+</p>
 
 {: style="text-align: justify;"}
 By setting λ to 0.5, we can interpret the following topics :
@@ -64,7 +70,9 @@ War appears naturaly in the most reccurent topics. It is also on of the most sal
 {: style="text-align: justify;"}
 ...or does it ? Let's do a topic detection on the plot summaries of movies which can be classified as war movies, by having the 'war' term appearing in the genre list. Looking for 4 topics yields the best results :
 
+<p align="center">
 <iframe src="lda_genre_war.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
+</p>
 
 {: style="text-align: justify;"}
 Here, again by setting λ to 0.5 we can distingish 4 topics :
