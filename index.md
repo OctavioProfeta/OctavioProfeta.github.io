@@ -20,7 +20,7 @@ We want to know whereas these subjects appears in the cinema industry, and wheth
 
 We will be using the [Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas/), which is a dataset containing more than 42'000 movie plot summaries, aswell as some other corresponding metadata. Added to that is the IMDb, which contains information about film's box office.
 
-## Ready, set... Analyse !
+## Ready, set... analyse !
 
 Hold on, hold on ! Let's first take a look at our data, and start by first seeing how many films have been produced through the years 
 
@@ -30,5 +30,7 @@ We clearly see the trend here : The movie industry has grown largely during the 
 
 <img src="/assets/img/top_10_countries.png" alt="Country Top 10">
 
-<iframe src="lda.html" width="750px" height="1000px" frameborder="0" position="relative">Genre plot</iframe>
+No surprises here, the United States of America is by far the most productive country, followed by India with Bollywood and the United Kingdom, almost tied for second place. The USA are responsible for more than 39% percent of the movie produced !
+
+<iframe src="lda.html" width="750px" height="850px" frameborder="0" position="relative">Genre plot</iframe>
 
