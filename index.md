@@ -22,8 +22,13 @@ We will be using the [Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas
 
 ## Ready, set... Analyse !
 
-Hold on, hold on ! Let's first take a look at our data, and start by first seeing how many films have been produced through the years :
+Hold on, hold on ! Let's first take a look at our data, and start by first seeing how many films have been produced through the years 
+
 <img src="/assets/img/movie_release_years.png" alt="Movie Release Years">
 
-<iframe src="lda.html" width="750px" height="800px" frameborder="0" position="relative">Genre plot</iframe>
+We clearly see the trend here : The movie industry has grown largely during the recent years, more specificaly at the start of the 90s ! What about country movie production ? Which country is the more productive ?
+
+<img src="/assets/img/top_10_countries.png" alt="Country Top 10">
+
+<iframe src="lda.html" width="750px" height="1000px" frameborder="0" position="relative">Genre plot</iframe>
 
