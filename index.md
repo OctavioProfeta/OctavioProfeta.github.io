@@ -57,7 +57,7 @@ War appears naturaly in the most reccurent topics. It is also on of the most sal
 
 <iframe src="lda_genre_war.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
 
-Here, we can distingish 4 topics
+Here, again by setting λ to 0.5 we can distingish 4 topics :
 
 * The first one represent the pacific theather of the second World War. We can tell by terms such as '*japanese*', being the most frequent term within the topic, '*american*', '*hitler*' or '*boat*'. 
 * The second topic represent mostly the Vietnam War, with terms such as '*vietnam*' or '*vietnamese*'. 
