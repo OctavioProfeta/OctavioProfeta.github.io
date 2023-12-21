@@ -38,15 +38,15 @@ Let's start by analysing which are the recurrent topic in movies. By using topic
 
 <iframe src="lda.html" width="750px" height="850px" frameborder="0" position="relative">Genre plot</iframe>
 
-By setting $lambda$ to 0.5, we can interpret the following topics :
+By setting &lambda to 0.5, we can interpret the following topics :
 
-1) Drama and/or Relationships
-2) Horror
-3) Detective and/or Crime
-4) War
-5) Musical
-6) Western
-7) Supernatural
-8) Undetermined, related to animals or creatures
+1. Drama and/or Relationships
+2. Horror
+3. Detective and/or Crime
+4. War
+5. Musical
+6. Western
+7. Supernatural
+8. Undetermined, related to animals or creatures
 
 War appears naturaly in the most reccurent topics. It is also on of the most salient terms, all topic cofounded. This indicate an interest for war in itself, but also for the consequences of war, such as the loss of loved ones, the destruction of the environment, etc. This implies that war is one of the most important societal fears.
