@@ -46,9 +46,7 @@ No surprises here, the United States of America is by far the most productive co
 {: style="text-align: justify;"}
 Let's start by analysing which are the recurrent topic in movies. By using topic detection algorithms on the plot summaries, we can extract major subjects from the movie plots. Looking for 8 topics yields the best results :
 
-<p align="center">
 <iframe src="lda.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
-</p>
 
 {: style="text-align: justify;"}
 By setting λ to 0.5, we can interpret the following topics :
@@ -70,9 +68,7 @@ War appears naturaly in the most reccurent topics. It is also on of the most sal
 {: style="text-align: justify;"}
 ...or does it ? Let's do a topic detection on the plot summaries of movies which can be classified as war movies, by having the 'war' term appearing in the genre list. Looking for 4 topics yields the best results :
 
-<p align="center">
 <iframe src="lda_genre_war.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
-</p>
 
 {: style="text-align: justify;"}
 Here, again by setting λ to 0.5 we can distingish 4 topics :
