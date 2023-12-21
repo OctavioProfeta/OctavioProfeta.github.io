@@ -36,9 +36,9 @@ No surprises here, the United States of America is by far the most productive co
 
 Let's start by analysing which are the recurrent topic in movies. By using topic detection algorithms on the plot summaries, we can extract major subjects from the movie plots.
 
-<iframe src="lda.html" width="750px" height="850px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="lda.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
 
-By setting &lambda to 0.5, we can interpret the following topics :
+By setting λ to 0.5, we can interpret the following topics :
 
 1. Drama and/or Relationships
 2. Horror
