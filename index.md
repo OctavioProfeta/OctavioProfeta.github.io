@@ -58,18 +58,31 @@ War appears naturaly in the most reccurent topics. It is also on of the most sal
 <iframe src="lda_genre_war.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
 
 Here, we can distingish 4 topics
+
 * The first one represent the pacific theather of the second World War. We can tell by terms such as '*japanese*', being the most frequent term within the topic, '*american*', '*hitler*' or '*boat*'. 
 * The second topic represent mostly the Vietnam War, with terms such as '*vietnam*' or '*vietnamese*'. 
 * The third topic seems to englobe war in general, with mostly generic war terms. 
-* The forth topic represents the european theater of the second World War. This is clearly seen with terms such as '*jew*', '*jewish*' or '*nazi*'.
+* The forth topic represents the european theater of the second World War. This is clearly seen with terms such as '*jew*', '*jewish*' or '*nazi*'. 
 
- We can see that the second World War is the most represented war in movies, with 2 topics out of 4. This is not surprising, as the second World War can be considered the most important war in the history of mankind.
+We can see that the second World War is the most represented war in movies, with 2 topics out of 4. This is not surprising, as the second World War can be considered the most important war in the history of mankind.
 
- ## Make movies, not war
+## Make movies, not war
 
- Alright, alright, we get it, war is not good. Let's talk about something happier; let's take a look at the rest of the movies which are not considered as war movies. Again, we apply a topic detection algorithm on the plot summaries. Looking for 4 topics yields the best results :
+Alright, alright, we get it, war is not good. Let's talk about something happier; let's take a look at the rest of the movies which are not considered as war movies. Again, we apply a topic detection algorithm on the plot summaries. Looking for 4 topics yields the best results :
 
- <iframe src="lda_genre_not_war.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="lda_genre_not_war.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
 
 ## * insert funny phrase about lexicons*
+
+Okay, let's get specific then. Since we already know which themes we want to explore in the plot summaries, we'll create adapted and representative lexicons for each of them. We will then use these lexicons to extract the frequency of each theme in the plot summaries. Here are some examples of the lexicons we created :
+
+*   War : '*war*', '*conflict*', '*battle*', '*combat*'
+*   Global Warming or Climate Change :'*global_warming*', '*greenhouse_gas*', '*carbon_footprint*', '*renewable_energy*'
+*   Terrorism : '*terrorism*', '*extremism*', '*radicalization*', '*terrorist_attack*'
+*   Pandemics or Goblal Disease Outbreak : '*pandemic*', '*epidemic*', '*outbreak*', '*virus*'
+*   Economic Collapse : '*economic_crisis*', '*financial_collapse*', '*recession*', '*depression*'
+*   Technology Advancement : '*robotics*', '*artificial_intelligence*', '*automation'*, '*data_science*' (yes, very scary indeed!)
+*   Aliens : '*extraterrestrial*', '*alien*', '*UFO*', '*alien_abduction*'
+
+
 
