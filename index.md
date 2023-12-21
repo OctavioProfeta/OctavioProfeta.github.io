@@ -27,12 +27,12 @@ We will be using the [Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas
 {: style="text-align: justify;"}
 Hold on ! Let's first take a look at our data, and start by first seeing how many films have been produced through the years 
 
-<img src="/assets/img/movie_release_years.png" alt="Movie Release Years">
+<iframe src="movie_release_years.html" frameborder="0" position="relative">Genre plot</iframe>
 
 {: style="text-align: justify;"}
 We clearly see the trend here : The movie industry has grown largely during the recent years, more specificaly at the start of the 90s ! What about country movie production ? Which country is the more productive ?
 
-<img src="/assets/img/top_10_countries.png" alt="Country Top 10">
+<iframe src="top_10_countries.html" frameborder="0" position="relative">Genre plot</iframe>
 
 {: style="text-align: justify;"}
 No surprises here, the United States of America is by far the most productive country, followed by India with Bollywood and the United Kingdom, almost tied for second place. The USA are responsible for more than 39% percent of the movie produced ! We need to keep in mind that the analysis we will be doing will be biased towards the USA.
@@ -98,9 +98,9 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 *   Economical Collapse : '*economic_crisis*', '*financial_collapse*', '*recession*', '*depression*'
 *   Technological Advancement : '*robotics*', '*artificial_intelligence*', '*automation'*, '*data_science*' (yes, very scary indeed!)
 *   Aliens : '*extraterrestrial*', '*alien*', '*UFO*', '*alien_abduction*'
+
+
 <p align="center">
 <iframe src="test_map.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
 </p>
 
-{: style="text-align: justify;"}
-ffgadafaslfkaslkfjasklfjasljkklfjsajafkslfajklsjklafsjklafs
