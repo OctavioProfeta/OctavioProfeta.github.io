@@ -14,7 +14,7 @@ Here, at WorkingTeam2023™, we want to know what are societal fears. So, what a
 *   Technological Advancement
 *   Aliens
 
-We want to know whereas these subjects appears in the cinema industry, and whether the movies treating them know some kind of success, aswell as point geographical and temporal trends.
+We also want to know whereas these subjects appears in the cinema industry, and whether the movies treating them know some kind of success, aswell as point geographical and temporal trends.
 
 ## The datasets
 
@@ -22,7 +22,7 @@ We will be using the [Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas
 
 ## Ready, set... analyse !
 
-Hold on, hold on ! Let's first take a look at our data, and start by first seeing how many films have been produced through the years 
+Hold on ! Let's first take a look at our data, and start by first seeing how many films have been produced through the years 
 
 <img src="/assets/img/movie_release_years.png" alt="Movie Release Years">
 
