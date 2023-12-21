@@ -72,7 +72,7 @@ Alright, alright, we get it, war is not good. Let's talk about something happier
 
 <iframe src="lda_genre_not_war.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
 
-## * insert funny phrase about lexicons*
+## * insert funny phrase about lexicons *
 
 Okay, let's get specific then. Since we already know which themes we want to explore in the plot summaries, we'll create adapted and representative lexicons for each of them. We will then use these lexicons to extract the frequency of each theme in the plot summaries. Here are some examples of the lexicons we created :
 
@@ -84,4 +84,4 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 *   Technological Advancement : '*robotics*', '*artificial_intelligence*', '*automation'*, '*data_science*' (yes, very scary indeed!)
 *   Aliens : '*extraterrestrial*', '*alien*', '*UFO*', '*alien_abduction*'
 
-<iframe src="test_map.html"></iframe>
+<iframe src="test_map.html" width="750px" height="860px" frameborder="0" position="relative"></iframe>
