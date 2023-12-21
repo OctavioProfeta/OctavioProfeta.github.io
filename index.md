@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Societal fears and movies
-cover-img: /assets/img/path.jpg
+cover-img: /assets/img/banniere.png
 ---
 
 {: style="text-align: justify;"}
