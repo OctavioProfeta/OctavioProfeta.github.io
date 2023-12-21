@@ -30,7 +30,23 @@ We clearly see the trend here : The movie industry has grown largely during the 
 
 <img src="/assets/img/top_10_countries.png" alt="Country Top 10">
 
-No surprises here, the United States of America is by far the most productive country, followed by India with Bollywood and the United Kingdom, almost tied for second place. The USA are responsible for more than 39% percent of the movie produced !
+No surprises here, the United States of America is by far the most productive country, followed by India with Bollywood and the United Kingdom, almost tied for second place. The USA are responsible for more than 39% percent of the movie produced ! We need to keep in mind that the analysis we will be doing will be biased towards the USA.
+
+## Let's get down to business
+
+Let's start by analysing which are the recurrent topic in movies. By using topic detection algorithms on the plot summaries, we can extract major subjects from the movie plots.
 
 <iframe src="lda.html" width="750px" height="850px" frameborder="0" position="relative">Genre plot</iframe>
 
+By setting $lambda$ to 0.5, we can interpret the following topics :
+
+1) Drama and/or Relationships
+2) Horror
+3) Detective and/or Crime
+4) War
+5) Musical
+6) Western
+7) Supernatural
+8) Undetermined, related to animals or creatures
+
+War appears naturaly in the most reccurent topics. It is also on of the most salient terms, all topic cofounded. This indicate an interest for war in itself, but also for the consequences of war, such as the loss of loved ones, the destruction of the environment, etc. This implies that war is one of the most important societal fears.
