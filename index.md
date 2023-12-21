@@ -50,3 +50,8 @@ By setting λ to 0.5, we can interpret the following topics :
 8. Undetermined, related to animals or creatures
 
 War appears naturaly in the most reccurent topics. It is also on of the most salient terms, all topic cofounded. This indicate an interest for war in itself, but also for the consequences of war, such as the loss of loved ones, the destruction of the environment, etc. This implies that war is one of the most important societal fears.
+
+## War, war never changes...
+
+...or does it ? Let's do a topic detection on the plot summaries of movies which can be classified as war movies, by having the 'war' term appearing in the genre list.
+
