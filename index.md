@@ -18,12 +18,12 @@ We want to know whereas these subjects appears in the cinema industry, and wheth
 
 ## The datasets
 
-We will be using the [Movie Summry Corpus](https://www.cs.cmu.edu/~ark/personas/), which is a dataset containing more than 42'000 movie plot summaries, aswell as some other corresponding metadata. Added to that is the IMDb, which contains information about film's box office.
+We will be using the [Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas/), which is a dataset containing more than 42'000 movie plot summaries, aswell as some other corresponding metadata. Added to that is the IMDb, which contains information about film's box office.
 
 ## Ready, set... Analyse !
 
 Hold on, hold on ! Let's first take a look at our data, and start by first seeing how many films have been produced through the years :
-<img src="/assets/img/movie_release_years.png" width="750px" height="800px" alt="Movie Release Years"></img>
+<img src="/assets/img/movie_release_years.png" alt="Movie Release Years">
 
 <iframe src="lda.html" width="750px" height="800px" frameborder="0" position="relative">Genre plot</iframe>
 
