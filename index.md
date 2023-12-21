@@ -7,11 +7,11 @@ cover-img: /assets/img/path.jpg
 {: style="text-align: justify;"}
 Here, at WorkingTeam2023™, we want to know what are societal fears. So, what are we *afraid* of ? We are talking about societal fears, like the fear of a global pandemic or the fear of a nuclear war, not the fear of spiders or the fear of heights. [The Chapman University](https://www.chapman.edu/wilkinson/research-centers/babbie-center/survey-american-fears.aspx) conducts yearly studies based on surveys in the United States of America, giving us a starting point for an answer. By taking a look at the results of the surveys from 2018 to 2023, we have chosen to consider 7 majors global fears, which are the following :
 *   War
-*   Global Warming or Climate Change
+*   Climate Change
 *   Terrorism
-*   Pandemics or Goblal Disease Outbreak
-*   Economic Collapse
-*   Technology Advancement
+*   Pandemics
+*   Economical Collapse
+*   Technological Advancement
 *   Aliens
 
 We want to know whereas these subjects appears in the cinema industry, and whether the movies treating them know some kind of success, aswell as point geographical and temporal trends.
@@ -77,12 +77,10 @@ Alright, alright, we get it, war is not good. Let's talk about something happier
 Okay, let's get specific then. Since we already know which themes we want to explore in the plot summaries, we'll create adapted and representative lexicons for each of them. We will then use these lexicons to extract the frequency of each theme in the plot summaries. Here are some examples of the lexicons we created :
 
 *   War : '*war*', '*conflict*', '*battle*', '*combat*'
-*   Global Warming or Climate Change :'*global_warming*', '*greenhouse_gas*', '*carbon_footprint*', '*renewable_energy*'
+*   Climate Change :'*global_warming*', '*greenhouse_gas*', '*carbon_footprint*', '*renewable_energy*'
 *   Terrorism : '*terrorism*', '*extremism*', '*radicalization*', '*terrorist_attack*'
-*   Pandemics or Goblal Disease Outbreak : '*pandemic*', '*epidemic*', '*outbreak*', '*virus*'
-*   Economic Collapse : '*economic_crisis*', '*financial_collapse*', '*recession*', '*depression*'
-*   Technology Advancement : '*robotics*', '*artificial_intelligence*', '*automation'*, '*data_science*' (yes, very scary indeed!)
+*   Pandemics : '*pandemic*', '*epidemic*', '*outbreak*', '*virus*'
+*   Economical Collapse : '*economic_crisis*', '*financial_collapse*', '*recession*', '*depression*'
+*   Technological Advancement : '*robotics*', '*artificial_intelligence*', '*automation'*, '*data_science*' (yes, very scary indeed!)
 *   Aliens : '*extraterrestrial*', '*alien*', '*UFO*', '*alien_abduction*'
-
-
 
