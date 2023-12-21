@@ -84,4 +84,4 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 *   Technological Advancement : '*robotics*', '*artificial_intelligence*', '*automation'*, '*data_science*' (yes, very scary indeed!)
 *   Aliens : '*extraterrestrial*', '*alien*', '*UFO*', '*alien_abduction*'
 
-<iframe src="test_map.html" width="750px" height="400px" frameborder="0" position="relative"></iframe>
+<iframe src="test_map.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
