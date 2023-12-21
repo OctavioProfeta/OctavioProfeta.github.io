@@ -16,9 +16,14 @@ Here, at WorkingTeam2023™, we want to know what are societal fears. So, what a
 
 We want to know whereas these subjects appears in the cinema industry, and whether the movies treating them know some kind of success, aswell as point geographical and temporal trends.
 
-## The dataset
+## The datasets
 
-We will be using the [Movie Summry Corpus](https://www.cs.cmu.edu/~ark/personas/), which is a dataset containing more than 42'000 movie plot summaries, aswell as some other corresponding metadata. 
+We will be using the [Movie Summry Corpus](https://www.cs.cmu.edu/~ark/personas/), which is a dataset containing more than 42'000 movie plot summaries, aswell as some other corresponding metadata. Added to that is the IMDb, which contains information about film's box office.
 
-<iframe src="lda.html" width="750px" height="530px" frameborder="0" position="relative">Genre plot</iframe>
+## Ready, set... Analyse !
+
+Hold on, hold on ! Let's first take a look at our data, and start by first seeing how many films have been produced through the years :
+<img src="/assets/img/movie_release_years.png" width="750px" height="800px" alt="Movie Release Years"></img>
+
+<iframe src="lda.html" width="750px" height="800px" frameborder="0" position="relative">Genre plot</iframe>
 
