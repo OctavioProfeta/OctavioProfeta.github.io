@@ -106,12 +106,12 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 This way, each movie gets assigned with a frequency metric which measures the proximity of that movie to each one of the themes. Let's see how those frequencies vary throughout the decenies :
 
 <p align="center">
-<iframe src="evolution_of_frequency.html" frameborder="0" position="relative"></iframe>
+<iframe src="evolution_of_frequency.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
 </p>
 
-<p align="center">
+<!-- <p align="center">
 <iframe src="test_map2.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
-</p>
+</p> -->
 
 
 <p align="center">
