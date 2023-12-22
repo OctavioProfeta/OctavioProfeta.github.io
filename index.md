@@ -5,7 +5,7 @@ cover-img: /assets/img/banniere3.png
 ---
 
 {: style="text-align: justify;"}
-Here, at WorkingTeam2023™, we want to know what are societal fears. So, what are we *afraid* of ? We are talking about societal fears, like the fear of a global pandemic or the fear of a nuclear war, not the fear of spiders or the fear of heights. [The Chapman University](https://www.chapman.edu/wilkinson/research-centers/babbie-center/survey-american-fears.aspx) conducts yearly studies based on surveys in the United States of America, giving us a starting point for an answer. By taking a look at the results of the surveys from 2018 to 2023, we have chosen to consider 7 majors global fears, which are the following :
+Here, at WorkingTeam2023™, we are interested in major societal fears. So, what are we *afraid* of ? We are not talking about fear of spiders or the fear of heights, we are talking about major societal fears. [The Chapman University](https://www.chapman.edu/wilkinson/research-centers/babbie-center/survey-american-fears.aspx) conducts yearly studies based on surveys in the United States of America, giving us a starting point for an answer. By taking a look at the results of the surveys from 2018 to 2023, we have chosen to consider 7 majors global fears, which are the following :
 *   War
 *   Climate Change
 *   Terrorism
@@ -15,12 +15,14 @@ Here, at WorkingTeam2023™, we want to know what are societal fears. So, what a
 *   Aliens
 
 {: style="text-align: justify;"}
-We also want to know whereas these subjects appears in the cinema industry, and whether the movies treating them know some kind of success, aswell as point geographical and temporal trends.
+Now that we chose what fears we want to dig into, how are these fears depicted in movies? How do they evolve chronogically? Are fears covered in movies related to historical, political or cultural events? What is the geographical distribution of these fears? What patterns emerge in the portrayal of fears, are there recurring combinations of fears depicted on screen? Do movies addressing societal fears tend to have a higher IMDb rating compared to those exploring other themes? And finally, what evolution of the society can we depict from all the previous result?
+
+These are different questions we will attempt to answer through our analysis.
 
 ## The datasets
 
 {: style="text-align: justify;"}
-We will be using the [Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas/), which is a dataset containing more than 42'000 movie plot summaries, aswell as some other corresponding metadata. Added to that is the IMDb, which contains information about film's box office.
+We will be using the [Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas/). This dataset contains more than 42'000 movie plot summaries as well as general information about the movie such as the release date or the production country. We added to that the IMDb dataset, which contains information about film's average rating and the number of votes.
 
 ## Ready, set... analyse !
 
@@ -123,9 +125,9 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 ## Case study : War movies
 
 {: style="text-align: justify;"}
-As seen in our first topic detection, war seems to be is the most represented societal fear in movies. Let's take a closer look at it. For this category, we can take a look at both the lexicon of war we've created earlier, and war-related genres. This is only possible for the war theme, since it's the only fear category which has genres associated with it.
+As seen in our first topic detection, war seems to be the most represented societal fear in movies. Let's take a closer look at it. For this category, we can take a look at both the lexicon of war we've created earlier, and war-related genres. This is only possible for the war theme, since it's the only fear category which has genres associated with it.
 
-### Analysis on the war lexicon
+### Analysis on the war lexicon: from Hollywood to Bollywood
 
 {: style="text-align: justify;"}
 In the introduction, we pointed out that the USA and India are the two most productive countries in the movie industry. Let's see how the frequency of the war theme varies in the movies produced by these two countries, by starting with the USA :
@@ -135,7 +137,7 @@ In the introduction, we pointed out that the USA and India are the two most prod
 </p>
 
 {: style="text-align: justify;"}
-We observe quite directly that the frequency of the war lexicons is related to major wars in which the USA was involved. For both the first and second World War, peaks in frequency are observable. One should take into account that the peaks are shifted towards the left since we calculate the mean frequency for 5-year periods. We can also observe that the freqency drops at the end of each major war. Concerning the Vietnam war, the peak is less present than for the other wars. However, the frequency declines more gently during this period.
+We observe quite directly that the frequency of the war lexicons is related to major wars in which the USA was involved. For both the first and second World War, peaks in frequency are observable. One should take into account that the peaks are shifted towards the left since we calculate the mean frequency for 5-year periods and we took the lower bound. We can also observe that the freqency drops at the end of each major war. Concerning the Vietnam war, the peak is less present than for the other wars. However, the frequency declines more gently during this period.
 
 {: style="text-align: justify;"}
 These findings suggest that a ongoing war may impact the content and number of war-related movies that are being produced. This is not surprising, since the movie industry is a reflection of the society. We also see that the end of a war is followed by a decline in the frequency of the war lexicon. This could be explained by the fact that the public is not interested in war themed movies anymore and directors have less interest in producing them. It is also interesting to see the smoother decline of the frequency during the Vietnam War, which could be explained by the long duration of this war.
@@ -149,7 +151,7 @@ Let's now take a look at the frequency of the war lexicon in the movies produced
 </p>
 
 {: style="text-align: justify;"}
-It seems that the main wars in which India was directly involved in had less impact on the frequency of the war lexicon than for the USA. We can still se that the major increase of the frequency of the war lexicon happens after World War 2, which might be explained by the fact that India was a British colony during this period, and that the war had a major impact on the country. One explaination for the lower frequency of the war lexicon could be that the major movie producer for India, Bollywood, is more focused on the production of musicals and comedies.
+It seems that the main wars in which India was directly involved in had less impact on the frequency of the war lexicon than for the USA. We can still see that the major increase of the frequency of the war lexicon happens after World War 2, which might be explained by the fact that India was a British colony during this period, and that the war had a major impact on the country. One explanation for the lower frequency of the war lexicon could be that the major movie producer for India, Bollywood, is more focused on the production of musicals and comedies.
 
 ### Analysis on war-related genres
 
@@ -168,7 +170,7 @@ Okay, war is bad, we've said it before. But is it really ? Let's take a look at 
 </p>
 
 {: style="text-align: justify;"}
-Okaaaaay... it *is* really bad. We can first point out that, generaly, movies tend to have a more negative compound sentiment to them. However, we can cleary see that war-related movie perfom worse than other movies when it comes to happy stuff. Not only do they have less possitve sentiment in general, they also have more movies that are extremely negative. Fair enough, war is not a happy subject. Bummer.
+Well... it *is* really bad. We can first point out that, generaly, movies tend to have a more negative compound sentiment to them. However, we can cleary see that war-related movie perfom worse than other movies when it comes to happy stuff. Not only do they have less possitve sentiment in general, they also have more movies that are extremely negative. Fair enough, war is not a happy subject. Bummer.
 
 #### Ratings
 
@@ -181,3 +183,6 @@ So, we've seen war is not a postive subject. But is it a good subject ? Let's ta
 
 {: style="text-align: justify;"}
 We see that on average, war-related movies are better rated than the average movie. Is that result statistically significant ? Doing a paired t-test on our data yields a p-value smaller than 0.05, meaning that under the 95% confidence interval, we can reject the null hypothesis that the average rating of war-related movies is equal to the average rating of all movies. This means that war-related movies are indeed better rated than the average movie.
+
+## Conclusion
+
