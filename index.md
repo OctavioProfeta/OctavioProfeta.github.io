@@ -117,5 +117,5 @@ Let's take a very quick detour by the wonderful world of statistics !
 Using the Pearson correlation, we 
 
 <p align="center">
-<img assets/img/graph.png>
+<img src="assets/img/graph.png">
 </p>
