@@ -151,8 +151,8 @@ By running sentiment analysis on our data, we found the compound sentiment of ou
 
 This graph should be interpreted the following way:
 * The size of the nodes is proportional to the mean frequency of the category
-* The distance between the nodes is proportional to the similarity between the lexicals
-* The size of the links connecting the nodes is proportional to the lexicons values for movies that have non-zeros lexicon values for both categories
+* The distance between the nodes is proportional to the similarity between the lexicons
+* The size of the links connecting the nodes is proportional to the lexicon values for movies that have non-zeros lexicon values for both categories
 * The color of the node represents the mean sentiment for this category
 
 One really interesting finding appears: 'war' and 'terrorism' are far from each other, which means that their lexicons are pretty different from one another, but at the same time we see a strong link between them, meaning they share a lot of movies. This resonates with the trend we've seen just before, with them following approximatively the same trends.
@@ -216,7 +216,7 @@ So, we've seen war is not a postive subject. But is it a good subject ? Let's ta
 
 <figure>
 <p style="text-align:center">
-<iframe src="boxplot_average_rating.html" width="560px" height="390px" frameborder="0" scrolling="no"></iframe>
+<iframe src="boxplot_average_rating.html" width="560px" height="390px" frameborder="0" scrolling="no" position='relative'></iframe>
 <figcaption> pvalue=1e-37 </figcaption>
 </p>
 </figure>
