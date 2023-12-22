@@ -153,3 +153,5 @@ Okay, war is bad, we've said it before, but is it really ? Let's take a look at 
 <p align="center">
 <iframe src="compound_sentiment.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
 </p>
+
+Okaaaaay... it is *really* bad. We can first point out that, generaly, movies tend to have a more negative compound sentiment to them. However, we can cleary see that war-related movie perfom worse than other movies when it comes to happy stuff. Not only do they have less possitve sentiment in general, they also have more movies that are extremely negative. Fair enough, war is not a happy subject. Bummer.
