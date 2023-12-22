@@ -173,3 +173,8 @@ Okaaaaay... it *is* really bad. We can first point out that, generaly, movies te
 #### Ratings
 
 {: style="text-align: justify;"}
+
+
+<p align="center">
+<iframe src="boxplot_average_rating.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
+</p>
