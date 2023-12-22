@@ -238,9 +238,6 @@ Let's take a look at the evolution of the war lexicon mean frequency over a 10-y
 <iframe src="worldmap_time_country.html" width="750px" height="500px" frameborder="0"></iframe>
 </p>
 
-<p style="text-align:center">
-<iframe src="worldmap_time_continent.html" width="750px" height="500px" frameborder="0"></iframe>
-</p>
 
 {: style="text-align: justify;"}
 The size of the circle represents the mean frequency of the war lexicon for the period and the color of the circle represents the number of movies produced during the period. 
