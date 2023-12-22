@@ -82,6 +82,7 @@ Here, again by setting λ to 0.5 we can distingish 4 topics :
 {: style="text-align: justify;"}
 We can see that the second World War is the most represented war in movies, with 2 topics out of 4. This is not surprising, as the second World War can be considered the most important war in the history of mankind.
 
+We'll take a more specific look on war as a societal fear in movies later on.
 ## Make movies, not war
 
 {: style="text-align: justify;"}
@@ -118,14 +119,37 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 <img src="assets/img/graph.png">
 </p>
 
-## Case studies : War in the USA vs India
+## Case study : War movies
 
-As we've seen in the introduction, the USA and India are the two most productive countries in the movie industry. Let's see how the frequency of the war theme varies in the movies produced by these two countries :
+As seen in our first topic detection, war seems to be is the most represented societal fear in movies. Let's take a closer look at it. For this category, we can take a look at both the lexicon of war we've created earlier, and war-related genres. This is only possible for the war theme, since it's the only fear category which has genres associated with it.
+
+### Analysis on the war lexicon
+
+In the introduction, we pointed out that the USA and India are the two most productive countries in the movie industry. Let's see how the frequency of the war theme varies in the movies produced by these two countries, by starting with the USA :
 
 <p align="center">
 <iframe src="usa_war.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
 </p>
 
-We can distinguish, in the period between 1940 and 1945, a clear drop of the frequency of the war theme in the movies produced by the USA. This might be due to the fact that the USA were involved in the second World War, and since we analyse the frequency for period of 5 years, we can see that the frequency of the war theme drops eventhough USA entered the second World War in 1941. More interestingly, we see a peak right after the end of the war, which might indicates that the USA produced a lot of movies narrating their prowess. 
+We observe quite directly that the frequency of the war lexicons is related to major wars in which the USA was involved. For both the first and second World War, peaks in frequency are observable. One should take into account that the peaks are shifted towards the left since we calculate the mean frequency for 5-year periods. We can also observe that the freqency drops at the end of each major war. Concerning the Vietnam war, the peak is less present than for the other wars. However, the frequency declines more gently during this period.
 
-We start to see the decline of war themed movies right after the start of the Vietnam War, which can be interpertred in different way; either the governement was trying to limit the production of war related movies (which in itself kind of sounds like a conspiracy theory), or the movie industry was trying to avoid the subject of war, which was a very sensitive subject at the time, or just in general, the public was not interested in war themed movies anymore, which is a more plausible explanation, since the decline of the frequency seems to be constant in the recent years, although we can see a small resurgence in the frequency of the war theme in the last 5 years.
+These findings suggest that a ongoing war may impact the content and number of war-related movies that are being produced. This is not surprising, since the movie industry is a reflection of the society. We also see that the end of a war is followed by a decline in the frequency of the war lexicon. This could be explained by the fact that the public is not interested in war themed movies anymore and directors have less interest in producing them. It is also interesting to see the smoother decline of the frequency during the Vietnam War, which could be explained by the long duration of this war.
+Finally, we can also observe that the frequency of the war lexicon is not null during periods of peace. This could be explained by the fact that the war theme is not only related to the war itself, but also to the consequences of war.
+
+Let's now take a look at the frequency of the war lexicon in the movies produced by India :
+
+<p align="center">
+<iframe src="inda_war.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
+</p>
+
+It seems that the main wars in which India was directly involved in had less impact on the frequency of the war lexicon than for the USA. We can still se that the major increase of the frequency of the war lexicon happens after World War 2, which might be explained by the fact that India was a British colony during this period, and that the war had a major impact on the country. One explaination for the lower frequency of the war lexicon could be that the major movie producer for India, Bollywood, is more focused on the production of musicals and comedies.
+
+### Analysis on war-related genres
+
+Let's continue the analysis based on war-related genres. To do so, we've selected movies that have an assigned genre which contains the term 'war'. 
+
+We first compare the compound sentiment of war-related movies to all other ones :
+
+<p align="center">
+<iframe src="compound_sentiment.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
+</p>
