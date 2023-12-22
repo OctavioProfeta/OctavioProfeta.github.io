@@ -117,3 +117,15 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 <p align="center">
 <img src="assets/img/graph.png">
 </p>
+
+## Case studies : War in the USA vs India
+
+As we've seen in the introduction, the USA and India are the two most productive countries in the movie industry. Let's see how the frequency of the war theme varies in the movies produced by these two countries :
+
+<p align="center">
+<iframe src="usa_war.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
+</p>
+
+We can distinguish, in the period between 1940 and 1945, a clear drop of the frequency of the war theme in the movies produced by the USA. This might be due to the fact that the USA were involved in the second World War, and since we analyse the frequency for period of 5 years, we can see that the frequency of the war theme drops eventhough USA entered the second World War in 1941. More interestingly, we see a peak right after the end of the war, which might indicates that the USA produced a lot of movies narrating their prowess. 
+
+We start to see the decline of war themed movies right after the start of the Vietnam War, which can be interpertred in different way; either the governement was trying to limit the production of war related movies (which in itself kind of sounds like a conspiracy theory), or the movie industry was trying to avoid the subject of war, which was a very sensitive subject at the time, or just in general, the public was not interested in war themed movies anymore, which is a more plausible explanation, since the decline of the frequency seems to be constant in the recent years, although we can see a small resurgence in the frequency of the war theme in the last 5 years.
