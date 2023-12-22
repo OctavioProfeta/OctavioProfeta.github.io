@@ -5,7 +5,7 @@ cover-img: /assets/img/banniere3.png
 ---
 
 {: style="text-align: justify;"}
-Here, at WorkingTeam2023™, we are interested in major societal fears. So, what are we *afraid* of ? We are not talking about fear of spiders or the fear of heights, we are talking about major societal fears. [The Chapman University](https://www.chapman.edu/wilkinson/research-centers/babbie-center/survey-american-fears.aspx) conducts yearly studies based on surveys in the United States of America, giving us a starting point for an answer. By taking a look at the results of the surveys from 2018 to 2023, we have chosen to consider 7 majors global fears, which are the following :
+Here, at WorkingTeam2023™, we are interested in major societal fears. So, what are we *afraid* of ? We are not talking about fear of spiders or the fear of heights, we are talking about major societal fears. [The Chapman University](https://www.chapman.edu/wilkinson/research-centers/babbie-center/survey-american-fears.aspx) conducts yearly studies based on surveys in the United States of America, giving us a starting point for an answer. By taking a look at the results of the surveys from 2018 to 2023, we have chosen to consider 7 majors global fears, which are the following:
 *   War
 *   Climate Change
 *   Terrorism
@@ -74,12 +74,12 @@ War appears clearly in the most reccurent topics. The word 'war' is also one of 
 
 
 
-...or does it ? Let's do a topic detection on the plot summaries of movies which can be classified as war movies, by having the 'war' term appearing in the genre list. Looking for 4 topics yields the best results :
+...or does it ? Let's do a topic detection on the plot summaries of movies which can be classified as war movies, by having the 'war' term appearing in the genre list. Looking for 4 topics yields the best results:
 
 <iframe src="lda_genre_war.html" width="750px" height="860px" frameborder="0">Genre plot</iframe>
 
 {: style="text-align: justify;"}
-Here, again by setting λ to 0.5 we can distingish 4 topics :
+Here, again by setting λ to 0.5 we can distingish 4 topics:
 
 {: style="text-align: justify;"}
 * The first one represent the pacific theather of the second World War. We can tell by terms such as '*japanese*', being the most frequent term within the topic, '*american*', '*hitler*' or '*boat*'. 
@@ -99,12 +99,12 @@ We can see that the second World War is the most represented war in movies, with
 ## Make movies, not war
 
 {: style="text-align: justify;"}
-Alright, alright, we get it, war is a very present theme. Let's talk about something happier; let's take a look at the rest of the movies which are not considered as war movies. Again, we apply a topic detection algorithm on the plot summaries. Looking for 4 topics yields the best results :
+Alright, alright, we get it, war is a very present theme. Let's talk about something happier; let's take a look at the rest of the movies which are not considered as war movies. Again, we apply a topic detection algorithm on the plot summaries. Looking for 4 topics yields the best results:
 
 <iframe src="lda_genre_not_war.html" width="750px" height="860px" frameborder="0">Genre plot</iframe>
 
 {: style="text-align: justify;"}
-Again by setting λ to 0.5 we can distingish 4 topics :
+Again by setting λ to 0.5 we can distingish 4 topics:
 
 {: style="text-align: justify;"}
 * Family
@@ -114,21 +114,21 @@ Again by setting λ to 0.5 we can distingish 4 topics :
 
 It is hard to point out other topics about societal fears. This is most certainly due to the movies on other themes, which is represents a higher number of movies than movies on major fears. We need another way to analyse the presence of societal fears in movies.
 
-## Insert funny phrase about lexicons here
+## \*Insert funny phrase about lexicons here\*
 
 {: style="text-align: justify;"}
-Okay, let's get specific then. Since we already know which themes we want to explore in the plot summaries, we'll create adapted and representative lexicons for each of them. We will then use these lexicons to extract the frequency of each theme in the plot summaries. Here are some examples of the lexicons we created :
+Okay, let's get specific then. Since we already know which themes we want to explore in the plot summaries, we'll create adapted and representative lexicons for each of them. We will then use these lexicons to extract the frequency of each theme in the plot summaries. Here are some examples of the lexicons we created:
 
-*   War : '*war*', '*conflict*', '*battle*', '*combat*'
-*   Climate Change :'*global_warming*', '*greenhouse_gas*', '*carbon_footprint*', '*renewable_energy*'
-*   Terrorism : '*terrorism*', '*extremism*', '*radicalization*', '*terrorist_attack*'
-*   Pandemics : '*pandemic*', '*epidemic*', '*outbreak*', '*virus*'
+*   War : '*mercenary*', '*bloodshed*', '*warfare*', '*military*'
+*   Climate Change :'*volcanoes*', '*contamined*', '*environemental*', '*weather*'
+*   Terrorism : '*bombings*', '*government*', '*kidnapping*', '*homicide*'
+*   Pandemics : '*pandemic*', '*catastophe*', '*immune*', '*virus*'
 *   Economical Collapse : '*economic_crisis*', '*financial_collapse*', '*recession*', '*depression*'
 *   Technological Advancement : '*robotics*', '*artificial_intelligence*', '*automation'*, '*data_science*' (yes, very scary indeed!)
 *   Aliens : '*extraterrestrial*', '*alien*', '*UFO*', '*alien_abduction*'
 
 {: style="text-align: justify;"}
-This way, each movie gets assigned with a frequency metric which measures the proximity of that movie to each one of the themes. Let's see how those frequencies vary throughout the decenies :
+This way, each movie gets assigned with a frequency metric which measures the proximity of that movie to each one of the themes. Let's see how those frequencies vary throughout the decenies:
 
 <p style="text-align:center">
 <iframe src="evol_freq.html" width="750px" height="500px" frameborder="0"></iframe>
@@ -138,7 +138,7 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 <iframe src="test_map2.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
 </p> -->
 {: style="text-align: justify;"}
-We see some interesting trends with 'war' and 'terrorism' following each other closely (besties!!), and taking the lead in term of lexicon frequency in the recent years. 
+We see some interesting trends with 'war' and 'terrorism' following each other closely, and taking the lead in term of lexicon frequency in the recent years. 
 
 ## one kiss is all it takes
 
@@ -148,9 +148,17 @@ By running sentiment analysis
 <img src="assets/img/graph.jpeg">
 </p>
 
-Some really interesting findings appear : 'war' and 'terrorism' are far from each other, which means that the lexicons they respectively use are pretty different from one another, but at the same time we see a strong link between them, meaning they share a lot of ??????
+This graph should be interpreted the following way:
+* The size of the nodes is proportional to the mean frequency of the category
+* The distance between the nodes is proportional to the similarity between the lexicals
+* The size of the links connecting the nodes is proportional to the lexicons values for movies that have non-zeros lexicon values for both categories
+* The color of the node represents the mean sentiment for this category
 
-## Case study : War movies
+One really interesting finding appears: 'war' and 'terrorism' are far from each other, which means that their lexicons are pretty different from one another, but at the same time we see a strong link between them, meaning they share a lot of movies. This resonates with the trend we've seen just before, with them following approximatively the same trends.
+
+Also interesting to note is the proximity of 'war' and 'climate change', and the proximity of 'terrorism' and 'economical collapse', which means they share a lot in term of lexicon. 
+
+## Case study: War movies
 
 {: style="text-align: justify;"}
 As seen in our first topic detection, war seems to be the most represented societal fear in movies. Let's take a closer look at it. For this category, we can take a look at both the lexicon of war we've created earlier, and war-related genres. This is only possible for the war theme, since it's the only fear category which has genres associated with it.
@@ -172,7 +180,7 @@ These findings suggest that a ongoing war may impact the content and number of w
 Finally, we can also observe that the frequency of the war lexicon is not null during periods of peace. This could be explained by the fact that the war theme is not only related to the war itself, but also to the consequences of war.
 
 {: style="text-align: justify;"}
-Let's now take a look at the frequency of the war lexicon in the movies produced by India :
+Let's now take a look at the frequency of the war lexicon in the movies produced by India:
 
 <p style="text-align:center">
 <iframe src="india_war.html" width="750px" height="500px" frameborder="0"></iframe>
@@ -191,7 +199,7 @@ Let's continue the analysis based on war-related genres. To do so, we've selecte
 {: style="text-align: justify;"}
 
 {: style="text-align: justify;"}
-Okay, war is bad, we've said it before. But is it really ? Let's take a look at the compound sentiment of the movies that have a war-related genre, compared to all other movies :
+Okay, war is bad, we've said it before. But is it really ? Let's take a look at the compound sentiment of the movies that have a war-related genre, compared to all other movies:
 
 <p style="text-align:center">
 <iframe src="compound_sentiment.html" width="750px" height="500px" frameborder="0"></iframe>
