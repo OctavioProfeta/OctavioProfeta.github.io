@@ -285,10 +285,10 @@ This scrutiny emphasizes the importance of utilizing data analysis as a robust i
 {: style="text-align: justify;"}
 In conclusion, this project not only deepened our comprehension of how data analysis can elucidate social trends but also underscored the intricate relationship between societal fears and their cinematic representations.
 
-
+-----------------------------------------------------
 
 ###### Sources for the images used in the banner
-
+{: style="text-align: center;"}
 *   [War](https://www.dvidshub.net/image/1934815/digital-art-still-within-me-second-place)
 *   [Climate Change](https://fineartamerica.com/featured/climate-change-robert-orinski.html)
 *   [Terrorism](https://www.deviantart.com/tecnificent/art/The-Terrorist-184405045)
