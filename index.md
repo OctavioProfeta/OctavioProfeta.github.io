@@ -70,7 +70,7 @@ War appears clearly in the most reccurent topics. The word 'war' is also one of 
 ## War, war never changes...
 
 {: style="text-align: justify;"}
-<img src="war_begin.jpg">
+<img src="/assets/img/war_begin.jpg">
 <br source>
 ...or does it ? Let's do a topic detection on the plot summaries of movies which can be classified as war movies, by having the 'war' term appearing in the genre list. Looking for 4 topics yields the best results :
 
