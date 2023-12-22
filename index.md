@@ -176,6 +176,7 @@ Okaaaaay... it *is* really bad. We can first point out that, generaly, movies te
 So, we've seen war is not a postive subject. But is it a good subject ? Let's take a look at the ratings of war-related movies, compared to all movies :
 
 <p align="center">
-<iframe src="boxplot_average_rating.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
+<iframe src="boxplot_average_rating.html" width="1000px" height="500px" frameborder="0" position="relative"></iframe>
 </p>
 
+We see that on average, war-related movies are better rated than the average movie. akjsdhkjasdh
