@@ -124,7 +124,7 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 *   Terrorism : '*bombings*', '*government*', '*kidnapping*'
 *   Pandemics : '*pandemic*', '*catastophe*', '*immune*'
 *   Economical Collapse : '*economy*', '*loans*', '*recession*'
-*   Technological Advancement : '*robotics*', '*data*', '*science*' (yes, those are very scary indeed!)
+*   Technological Advancement : '*robotics*', '*data*', '*science*' (yes, those last two are very scary indeed!)
 *   Aliens : '*martian*', '*universe*', '*ufo*'
 
 {: style="text-align: justify;"}
@@ -159,7 +159,7 @@ One really interesting finding appears: 'war' and 'terrorism' are far from each 
 
 Also interesting to note is the proximity of 'war' and 'climate change', and the proximity of 'terrorism' and 'economical collapse', which means they share a lot in term of lexicon. 
 
-We finally see that those categories all have a strong negative compound sentiment, which might imply actual fear! How thrilling!
+We finally see that those categories all have a strong negative compound sentiment, which might imply fear! How thrilling!
 
 ## Case study: War movies
 
@@ -217,7 +217,10 @@ Well... it *is* really bad. We can first point out that, generaly, movies tend t
 So, we've seen war is not a postive subject. But is it a good subject ? Let's take a look at the ratings of war-related movies, compared to all movies :
 
 <p style="text-align:center">
+<figure>
 <iframe src="boxplot_average_rating.html" width="560px" height="390px" frameborder="0" scrolling="no"></iframe>
+<figcaption> pvalue=1e-37 </figcaption>
+</figure>
 </p>
 
 {: style="text-align: justify;"}
