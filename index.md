@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Societal fears and movies
+title: When Society's Greatest Fears Hit the Big Screen
+subtitle: A Data-Driven Analysis of Societal Fears in Movies
 cover-img: /assets/img/banniere3.png
 ---
 
