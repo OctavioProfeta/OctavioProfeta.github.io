@@ -70,7 +70,7 @@ War appears clearly in the most reccurent topics. The word 'war' is also one of 
 ## War, war never changes...
 
 {: style="text-align: justify;"}
-<img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover; object-position: 0 1%;">
+<img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover; object-position: 0 0;">
 
 
 
@@ -108,7 +108,7 @@ Again by setting λ to 0.5 we can distingish 4 topics :
 
 It is hard to point out other topics about societal fears. This is most certainly due to the movies on other themes, which is represents a higher number of movies than movies on major fears. We need another way to analyse the presence of societal fears in movies.
 
-## *insert funny phrase about lexicons*
+## Insert funny phrase about lexicons here
 
 {: style="text-align: justify;"}
 Okay, let's get specific then. Since we already know which themes we want to explore in the plot summaries, we'll create adapted and representative lexicons for each of them. We will then use these lexicons to extract the frequency of each theme in the plot summaries. Here are some examples of the lexicons we created :
