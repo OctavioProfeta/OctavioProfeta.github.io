@@ -70,7 +70,7 @@ War appears clearly in the most reccurent topics. The word 'war' is also one of 
 ## War, war never changes...
 
 {: style="text-align: justify;"}
-<img src="/assets/img/war_begin.jpg" width="750px" height="300px">
+<img src="/assets/img/war_begin.jpg" width="750px" height="300px" object-fit="fill">
 
 
 
