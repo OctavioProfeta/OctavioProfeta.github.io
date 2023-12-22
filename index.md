@@ -11,7 +11,7 @@ Here, at WorkingTeam2023™, we are interested in major societal fears. So, what
 *   Terrorism
 *   Pandemics
 *   Economical Collapse
-*   Technological Advancement
+*   Technology
 *   Aliens
 
 {: style="text-align: justify;"}
@@ -125,7 +125,7 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 *   Terrorism : '*bombings*', '*government*', '*kidnapping*'
 *   Pandemics : '*pandemic*', '*catastophe*', '*immune*'
 *   Economical Collapse : '*economy*', '*loans*', '*recession*'
-*   Technological Advancement : '*robotics*', '*data*', '*science*' (yes, those last two are very scary indeed!)
+*   Technology : '*robotics*', '*data*', '*science*' (yes, those last two are very scary indeed!)
 *   Aliens : '*martian*', '*universe*', '*ufo*'
 
 {: style="text-align: justify;"}
@@ -202,7 +202,8 @@ The results of those tests show that the only fear movie that fails to reject th
 {: style="text-align: justify;"}
 As seen in our first topic detection, war seems to be the most represented societal fear in movies. Let's take a closer look at it. For this category, we can take a look at both the lexicon of war we've created earlier, and war-related genres. This is only possible for the war theme, since it's the only fear category which has genres associated with it.
 
-### Analysis on the war lexicon: from Hollywood to Bollywood
+### Analysis on the war lexicon
+#### From Hollywood to Bollywood
 
 {: style="text-align: justify;"}
 In the introduction, we pointed out that the USA and India are the two most productive countries in the movie industry. Let's see how the frequency of the war theme varies in the movies produced by these two countries, by starting with the USA :
@@ -296,7 +297,7 @@ In conclusion, this project not only deepened our comprehension of how data anal
 *   [Terrorism](https://www.deviantart.com/tecnificent/art/The-Terrorist-184405045)
 *   [Pandemics](https://www.nature.com/articles/d41591-021-00009-5), art by Jessica Johnson
 *   [Economical Collapse](https://www.futura-sciences.com/sciences/questions-reponses/epoque-contemporaine-sont-consequences-krach-1929-5526/)
-*   [Technological Advancement](https://ticktocktech.com/blog/2021/08/18/how-technology-is-changing-the-art-world/)
+*   [Technology](https://ticktocktech.com/blog/2021/08/18/how-technology-is-changing-the-art-world/)
 *   [Aliens](https://fineartamerica.com/featured/alien-invasion-03-matthias-hauser.html)
 *   [War begins](https://www.pinterest.fr/pin/11822017755734478/)
 *   [War ends](https://www.pinterest.fr/pin/563794447116801159/)
