@@ -103,18 +103,16 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 *   Technological Advancement : '*robotics*', '*artificial_intelligence*', '*automation'*, '*data_science*' (yes, very scary indeed!)
 *   Aliens : '*extraterrestrial*', '*alien*', '*UFO*', '*alien_abduction*'
 
+This way, each movie gets assigned with a frequency metric which measures the proximity of that movie to each one of the themes. Let's see how those frequencies vary throughout the decenies :
+
+<p align="center">
+<iframe src="evolution_of_frequency.html" frameborder="0" position="relative"></iframe>
+</p>
 
 <p align="center">
 <iframe src="test_map2.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
 </p>
 
-
-## Quick statistical detour : what indicates that a movie is good ?
-
-It is safe to say that a good movie is more likely to perform well at the box office; however, not all good movies perform well saleswise. Is there a correlation between movies revenues and the average rating given to them on [IMDb](https://www.imdb.com) ?
-Let's take a very quick detour by the wonderful world of statistics !
-
-Using the Pearson correlation, we 
 
 <p align="center">
 <img src="assets/img/graph.png">
