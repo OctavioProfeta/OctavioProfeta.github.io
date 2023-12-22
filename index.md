@@ -112,6 +112,7 @@ Again by setting λ to 0.5 we can distingish 4 topics:
 * Crime 
 * Family and/or Science-fiction
 
+{: style="text-align: justify;"}
 It is hard to point out other topics about societal fears. It seems that we need to look for the fears we want to analyze in the plot summaries. Thankfully, the wonderful world of Natural Language Processing is here to help us! Let's build some lexicons!
 
 ## \*Insert funny phrase about lexicons here\*
@@ -128,7 +129,7 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 *   Aliens : '*martian*', '*universe*', '*ufo*'
 
 {: style="text-align: justify;"}
-This way, each movie gets assigned with a frequency metric which measures the proximity of that movie to each one of the themes. #TODO EXPLAIN FREQUENCY Let's see how those frequencies vary throughout the decenies:
+This way, each movie gets assigned with a frequency metric which measures the proximity of that movie to each one of the themes. This frequency represents the percentage of the movie plot summary which is a part of the lexicon. Let's see how those frequencies vary throughout the decenies:
 
 <p style="text-align:center">
 <iframe src="evol_freq.html" width="750px" height="500px" frameborder="0"></iframe>
@@ -177,13 +178,17 @@ However, it is important to take the number of movie into account, as a lot of c
 
 ## Do societal fears suck ? (spoiler: yes)
 
+{: style="text-align: justify;"}
 What do the ratings tell us about the movies on societal fears ? Let's take a closer look:
 
 {: style="text-align: justify;"}
 <img src="/assets/img/boxplot.jpeg">
 
 {: style="text-align: justify;"}
-We can observe slight differences between the fear categories. First of all, all movies about societal fears seem to have a slightly lower median value for the average rating. Ratings for movies about economic collapse seem to be the closest to rating for all movies. Alien movies seem to have to lowest median as well as the largest quantiles.
+We can observe slight differences between the fear categories. The most far right boxplot is representative of all movies.
+
+{: style="text-align: justify;"}
+First of all, all movies about societal fears seem to have a slightly lower median value for the average rating. Ratings for movies about economic collapse seem to be the closest to rating for all movies. Alien movies seem to have to lowest median as well as the largest quantiles.
 
 {: style="text-align: justify;"}
 It is hard to visually evaluate if the difference in rating is significant or not. To determine this, let's perform a T-Test!
@@ -239,6 +244,7 @@ Let's take a look at the evolution of the war lexicon mean frequency over a 10-y
 {: style="text-align: justify;"}
 The size of the circle represents the mean frequency of the war lexicon for the period and the color of the circle represents the number of movies produced during the period. 
 
+{: style="text-align: justify;"}
 We can see a general trend that more and more countries throughout the decades started to produced war-related movies proportionaly to all of their movie production, whereas the USA seems to seem constant proportionaly.
 
 ### Analysis on war-related genres
