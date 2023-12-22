@@ -72,7 +72,7 @@ War appears clearly in the most reccurent topics. The word 'war' is also one of 
 {: style="text-align: justify;"}
 <figure>
 <img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover; object-position: 0 30%;">
-<figcaption>[*Source*](https://www.pinterest.fr/pin/11822017755734478/)</figcaption>
+<figcaption><a href="https://www.pinterest.fr/pin/11822017755734478/"></a></figcaption>
 </figure>
 
 
@@ -96,7 +96,7 @@ We can see that the second World War is the most represented war in movies, with
 {: style="text-align: justify;"}
 <figure>
 <img src="/assets/img/war_end.jpg" style="width: 750px; height: 300px; object-fit: cover;">
-<figcaption>[*Source*](https://www.pinterest.fr/pin/563794447116801159/)</figcaption>
+<figcaption><a href="https://www.pinterest.fr/pin/563794447116801159/"></a></figcaption>
 </figure>
 
 
