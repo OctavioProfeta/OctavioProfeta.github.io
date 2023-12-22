@@ -179,5 +179,8 @@ So, we've seen war is not a postive subject. But is it a good subject ? Let's ta
 <iframe src="boxplot_average_rating.html" width="1000px" height="200px" frameborder="0" position="relative"></iframe>
 </p>
 
-We see that on average, war-related movies are better rated than the average movie. Is that result statistically significant ? Let's do a paired t-test to find out :
+{: style="text-align: justify;"}
+We see that on average, war-related movies are better rated than the average movie. Is that result statistically significant ? Doing a paired t-test on our data yields a p-value smaller than 0.05, meaning that under the 95% confidence interval, we can reject the null hypothesis that the average rating of war-related movies is equal to the average rating of all movies. This means that war-related movies are indeed better rated than the average movie.
+
+youpi
 
