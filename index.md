@@ -92,8 +92,11 @@ We can see that the second World War is the most represented war in movies, with
 
 
 {: style="text-align: justify;"}
+<figure>
 <img src="/assets/img/war_end.jpg" style="width: 750px; height: 300px; object-fit: cover;">
-<br Source></br>
+<figcaption>Source</figcaption>
+</figure>
+
 
 ## Make movies, not war
 
