@@ -198,3 +198,17 @@ We see that on average, war-related movies are better rated than the average mov
 
 ## Conclusion
 
+
+
+
+
+
+###### Sources for the images used in the banner
+
+*   [War](https://www.dvidshub.net/image/1934815/digital-art-still-within-me-second-place)
+*   [Climate Change](https://fineartamerica.com/featured/climate-change-robert-orinski.html)
+*   [Terrorism](https://www.deviantart.com/tecnificent/art/The-Terrorist-184405045)
+*   [Pandemics](https://www.nature.com/articles/d41591-021-00009-5), art by Jessica Johnson
+*   [Economical Collapse](https://www.futura-sciences.com/sciences/questions-reponses/epoque-contemporaine-sont-consequences-krach-1929-5526/)
+*   [Technological Advancement](https://ticktocktech.com/blog/2021/08/18/how-technology-is-changing-the-art-world/)
+*   [Aliens](https://fineartamerica.com/featured/alien-invasion-03-matthias-hauser.html)
