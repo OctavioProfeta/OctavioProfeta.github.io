@@ -140,7 +140,7 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 
 
 <p style="text-align:center">
-<img src="assets/img/graph.png">
+<img src="assets/img/graph.jpeg">
 </p>
 
 ## Case study : War movies
