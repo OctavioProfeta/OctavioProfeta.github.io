@@ -149,12 +149,14 @@ By running sentiment analysis on our data, we found the compound sentiment of ou
 <img src="assets/img/graph.jpeg">
 </p>
 
+{: style="text-align: justify;"}
 This graph should be interpreted the following way:
 * The size of the nodes is proportional to the mean frequency of the category
 * The distance between the nodes is proportional to the similarity between the lexicons
 * The size of the links connecting the nodes is proportional to the lexicon values for movies that have non-zeros lexicon values for both categories
 * The color of the node represents the mean sentiment for this category
 
+{: style="text-align: justify;"}
 One really interesting finding appears: 'war' and 'terrorism' are far from each other, which means that their lexicons are pretty different from one another, but at the same time we see a strong link between them, meaning they share a lot of movies. This resonates with the trend we've seen just before, with them following approximatively the same trends.
 
 Also interesting to note is the proximity of 'war' and 'climate change', and the proximity of 'terrorism' and 'economical collapse', which means they share a lot in term of lexicon. 
