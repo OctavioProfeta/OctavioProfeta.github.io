@@ -164,15 +164,33 @@ We finally see that those categories all have a strong negative compound sentime
 
 ## I can show you the woooorld...
 
-...wait, wrong movie. Sorry. But we can actually show the world ! Let's see jwehf
-
+{: style="text-align: justify;"}
+...wait, wrong movie. Sorry. But we can actually show the world ! Let's see the distribution lexicon mean frequency for all fear categories:
 
 <iframe src="world_map_all.html" width="800px" height="450px" frameborder="0"></iframe>
 
+{: style="text-align: justify;"}
+We can see that the frequency changes a lot with the different fear categories. Once again, we see that war and terrorism have the highest frequencies. It appears that these themes are proportionally more present in Europe, Northern Africa and the Middle East. Other fear categories seem to be less popular in Europe and in the USA. Movies about economic collapse seem to be the less represented across the globe.
+
+{: style="text-align: justify;"}
+However, it is important to take the number of movie into account, as a lot of countries didn’t produce a lot of movies. The USA and Indian have small frequencies for all categories, but this is probably due to the large number of movies produced in theses countries thus the diversity of movie themes is greater.
+
 ## Do societal fears suck ? (spoiler: yes)
+
+What do the ratings tell us about the movies on societal fears ? Let's take a closer look:
 
 {: style="text-align: justify;"}
 <img src="/assets/img/boxplot.jpeg">
+
+{: style="text-align: justify;"}
+We can observe slight differences between the fear categories. First of all, all movies about societal fears seem to have a slightly lower median value for the average rating. Ratings for movies about economic collapse seem to be the closest to rating for all movies. Alien movies seem to have to lowest median as well as the largest quantiles.
+
+{: style="text-align: justify;"}
+It is hard to visually evaluate if the difference in rating is significant or not. To determine this, let's perform a T-Test!
+
+{: style="text-align: justify;"}
+The results of those tests show that the only fear movie that fails to reject the null hypothesis is movies about economic collapse. We conclude that, in general, movies depciting fear tend to have a lower average IMDb rating that other movies. Well, can't blame the public for not wanting to watch movies about societal fears, can we ?
+
 
 ## Case study: War movies
 
