@@ -24,34 +24,34 @@ These are different questions we will attempt to answer through our analysis.
 {: style="text-align: justify;"}
 We will be using the [Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas/). This dataset contains more than 42'000 movie plot summaries as well as general information about the movie such as the release date or the production country. We added to that the IMDb dataset, which contains information about film's average rating and the number of votes.
 
-## Ready, set... analyse !
+## Ready, set... analyse!
 
 {: style="text-align: justify;"}
-Hold on ! Let's first take a look at our data, and start by first seeing how many films have been produced through the years 
+Hold on! Let's first take a look at our data, and start by seeing how many films have been produced through the years.
 
 <p align="center">
 <iframe src="movie_release_years.html" width="750px" height="400px" frameborder="0" position="relative">Genre plot</iframe>
 </p>
 
 {: style="text-align: justify;"}
-We clearly see the trend here : The movie industry has grown largely during the recent years, more specificaly at the start of the 90s ! What about country movie production ? Which country is the more productive ?
+We clearly see the trend here: the movie industry has grown largely during the recent years, more specifically at the start of the 90s. What about country movie production? Which country is the biggest movie producer?
 
 <p align="center">
 <iframe src="top_10_countries.html" width="750px" height="400px" frameborder="0" position="relative">Genre plot</iframe>
 </p>
 
 {: style="text-align: justify;"}
-No surprises here, the United States of America is by far the most productive country, followed by India with Bollywood and the United Kingdom, almost tied for second place. The USA are responsible for more than 39% percent of the movie produced ! We need to keep in mind that the analysis we will be doing will be biased towards the USA.
+No surprises here, the USA is by far the most productive country followed by India and the United Kingdom, almost tied for second place. The USA are responsible for more than 39% percent of the movie produced! We need to keep in mind that the analysis we will be doing will be biased towards american movies.
 
 ## Let's get down to business
 
 {: style="text-align: justify;"}
-Let's start by analysing which are the recurrent topic in movies. By using topic detection algorithms on the plot summaries, we can extract major subjects from the movie plots. Looking for 8 topics yields the best results :
+Let's start by analysing which are the recurrent topic in our dataset. By using topic detection algorithms on the plot summaries, we can extract major subjects from the movie plots. To get better results, we performed several cleaning step on the plot summaries. Looking for 8 topics yields the best results:
 
 <iframe src="lda.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
 
 {: style="text-align: justify;"}
-By setting λ to 0.5, we can interpret the following topics :
+By setting the relevance metric λ to 0.5, we can interpret the topics' theme as:
 
 1. Drama and/or Relationships
 2. Horror
@@ -63,7 +63,9 @@ By setting λ to 0.5, we can interpret the following topics :
 8. Undetermined, related to animals or creatures
 
 {: style="text-align: justify;"}
-War appears naturaly in the most reccurent topics. It is also on of the most salient terms, all topic cofounded. This indicate an interest for war in itself, but also for the consequences of war, such as the loss of loved ones, the destruction of the environment, etc. This implies that war is one of the most important societal fears.
+War appears clearly in the most reccurent topics. The word 'war' is also one of the most salient terms, all topics combined. As we discussed in the introduction, we chose war as one of the major societal fear of interest. Thus, movies do indeed discuss societal fears and war seems like the most present societal fear depicted in movies. We will therefore look deeper into the war theme.
+
+{: style="text-align: justify;"}
 
 ## War, war never changes...
 
@@ -82,15 +84,25 @@ Here, again by setting λ to 0.5 we can distingish 4 topics :
 * The forth topic represents the european theater of the second World War. This is clearly seen with terms such as '*jew*', '*jewish*' or '*nazi*'. 
 
 {: style="text-align: justify;"}
-We can see that the second World War is the most represented war in movies, with 2 topics out of 4. This is not surprising, as the second World War can be considered the most important war in the history of mankind.
+We can see that the second World War is the most represented war in movies, with 2 topics out of 4. This is not surprising, as the second World War can be considered the most important war in the history of mankind. As war is one of the main societal fear depicted in movies, we'll take a more specific look on war as a societal fear in movies later on.
 
-We'll take a more specific look on war as a societal fear in movies later on.
 ## Make movies, not war
 
 {: style="text-align: justify;"}
-Alright, alright, we get it, war is not good. Let's talk about something happier; let's take a look at the rest of the movies which are not considered as war movies. Again, we apply a topic detection algorithm on the plot summaries. Looking for 4 topics yields the best results :
+Alright, alright, we get it, war is a very present theme. Let's talk about something happier; let's take a look at the rest of the movies which are not considered as war movies. Again, we apply a topic detection algorithm on the plot summaries. Looking for 4 topics yields the best results :
 
 <iframe src="lda_genre_not_war.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
+
+{: style="text-align: justify;"}
+Again by setting λ to 0.5 we can distingish 4 topics :
+
+{: style="text-align: justify;"}
+* Family
+* Action and/or War
+* Crime 
+* Family and/or Science-fiction
+
+It is hard to point out other topics about societal fears. This is most certainly due to the movies on other themes, which is represents a higher number of movies than movies on major fears. We need another way to analyse the presence of societal fears in movies.
 
 ## *insert funny phrase about lexicons*
 
