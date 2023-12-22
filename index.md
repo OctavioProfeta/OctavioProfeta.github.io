@@ -139,7 +139,7 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 {: style="text-align: justify;"}
 We see some interesting trend with 'war' and 'terrorism' following each other closely, and taking the lead in term of lexicon frequency in the recent years. 
 
-## jsp
+## Linking it all together 
 {: style="text-align: justify;"}
 By running sentiment analysis on our data, we found the compound sentiment of our fear categories:
 
@@ -197,7 +197,7 @@ It is hard to visually evaluate if the difference in rating is significant or no
 The results of those tests show that the only fear movie that fails to reject the null hypothesis is movies about economic collapse. We conclude that, in general, movies depciting fear tend to have a lower average IMDb rating that other movies. Well, can't blame the public for not wanting to watch movies about societal fears, can we ?
 
 
-## Case study: War movies
+# Case study: War movies
 
 {: style="text-align: justify;"}
 As seen in our first topic detection, war seems to be the most represented societal fear in movies. Let's take a closer look at it. For this category, we can take a look at both the lexicon of war we've created earlier, and war-related genres. This is only possible for the war theme, since it's the only fear category which has genres associated with it.
@@ -278,7 +278,14 @@ We see that on average, war-related movies are better rated than the average mov
 
 ## Conclusion
 
-asd
+{: style="text-align: justify;"}
+Through our examination, we have uncovered discernible trends and insights concerning societal fears as portrayed in films. The analysis distinctly reveals that movies serve as a reflection of societal anxieties, with representations evolving over time and exhibiting regional nuances specific to each fear category.
+
+{: style="text-align: justify;"}
+This scrutiny emphasizes the importance of utilizing data analysis as a robust instrument for conducting comprehensive investigations. By harnessing this tool, we gain a deeper understanding of the intricate dynamics behind the depiction of societal fears in cinematic works. It is essential to recognize that certain facets of our analysis were shaped by individual perspectives and interpretations.
+
+{: style="text-align: justify;"}
+In conclusion, this project not only deepened our comprehension of how data analysis can elucidate social trends but also underscored the intricate relationship between societal fears and their cinematic representations.
 
 
 
