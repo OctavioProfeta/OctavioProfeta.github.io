@@ -169,7 +169,10 @@ We finally see that those categories all have a strong negative compound sentime
 
 <iframe src="world_map_all.html" width="800px" height="450px" frameborder="0"></iframe>
 
+## Do societal fears suck ? (spoiler: yes)
 
+{: style="text-align: justify;"}
+<img src="/assets/img/boxplot.jpeg">
 
 ## Case study: War movies
 
@@ -202,6 +205,24 @@ Let's now take a look at the frequency of the war lexicon in the movies produced
 {: style="text-align: justify;"}
 It seems that the main wars in which India was directly involved in had less impact on the frequency of the war lexicon than for the USA. We can still see that the major increase of the frequency of the war lexicon happens after World War 2, which might be explained by the fact that India was a British colony during this period, and that the war had a major impact on the country. One explanation for the lower frequency of the war lexicon could be that the major movie producer for India, Bollywood, is more focused on the production of musicals and comedies.
 
+#### More beautiful data: War movies in the world
+
+{: style="text-align: justify;"}
+Let's take a look at the evolution of the war lexicon mean frequency over a 10-year period in the world:
+
+<p style="text-align:center">
+<iframe src="worldmap_time_country.html" width="750px" height="500px" frameborder="0"></iframe>
+</p>
+
+<p style="text-align:center">
+<iframe src="worldmap_time_continent.html" width="750px" height="500px" frameborder="0"></iframe>
+</p>
+
+{: style="text-align: justify;"}
+The size of the circle represents the mean frequency of the war lexicon for the period and the color of the circle represents the number of movies produced during the period. 
+
+We can see a general trend that more and more countries throughout the decades started to produced war-related movies proportionaly to all of their movie production, whereas the USA seems to seem constant proportionaly.
+
 ### Analysis on war-related genres
 
 {: style="text-align: justify;"}
@@ -230,24 +251,6 @@ So, we've seen war is not a postive subject. But is it a good subject ? Let's ta
 
 {: style="text-align: justify;"}
 We see that on average, war-related movies are better rated than the average movie. Is that result statistically significant ? Doing a paired t-test on our data yields a p-value smaller than 0.05, meaning that under the 95% confidence interval, we can reject the null hypothesis that the average rating of war-related movies is equal to the average rating of all movies. This means that war-related movies are indeed better rated than the average movie.
-
-#### More beautiful data: War movies in the world
-
-{: style="text-align: justify;"}
-Let's take a look at the evolution of the war lexicon mean frequency over a 10-year period in the world:
-
-<p style="text-align:center">
-<iframe src="worldmap_time_country.html" width="750px" height="500px" frameborder="0"></iframe>
-</p>
-
-<p style="text-align:center">
-<iframe src="worldmap_time_continent.html" width="750px" height="500px" frameborder="0"></iframe>
-</p>
-
-{: style="text-align: justify;"}
-The size of the circle represents the mean frequency of the war lexicon for the period and the color of the circle represents the number of movies produced during the period. 
-
-We can see a general trend that more and more countries throughout the decades started to produced war-related movies proportionaly to all of their movie production, whereas the USA seems to seem constant proportionaly.
 
 ## Conclusion
 
