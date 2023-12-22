@@ -17,7 +17,7 @@ Here, at WorkingTeam2023™, we are interested in major societal fears. So, what
 {: style="text-align: justify;"}
 Now that we chose what fears we want to dig into, how are these fears depicted in movies? How do they evolve chronogically? Are fears covered in movies related to historical, political or cultural events? What is the geographical distribution of these fears? What patterns emerge in the portrayal of fears, are there recurring combinations of fears depicted on screen? Do movies addressing societal fears tend to have a higher IMDb rating compared to those exploring other themes? And finally, what evolution of the society can we depict from all the previous result?
 
-These are different questions we will attempt to answer through our analysis.
+In brief, **how are major societal fears depicted in the movie industry ?**
 
 ## The datasets
 
