@@ -70,7 +70,7 @@ War appears clearly in the most reccurent topics. The word 'war' is also one of 
 ## War, war never changes...
 
 {: style="text-align: justify;"}
-<img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover; object-position: 0 0;">
+<img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover; object-position: 0 -10%;">
 
 
 
@@ -113,7 +113,6 @@ It is hard to point out other topics about societal fears. This is most certainl
 {: style="text-align: justify;"}
 Okay, let's get specific then. Since we already know which themes we want to explore in the plot summaries, we'll create adapted and representative lexicons for each of them. We will then use these lexicons to extract the frequency of each theme in the plot summaries. Here are some examples of the lexicons we created :
 
-{: style="text-align: justify;"}
 *   War : '*war*', '*conflict*', '*battle*', '*combat*'
 *   Climate Change :'*global_warming*', '*greenhouse_gas*', '*carbon_footprint*', '*renewable_energy*'
 *   Terrorism : '*terrorism*', '*extremism*', '*radicalization*', '*terrorist_attack*'
