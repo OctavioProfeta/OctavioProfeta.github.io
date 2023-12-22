@@ -243,7 +243,10 @@ Let's take a look at the evolution of the war lexicon mean frequency over a 10-y
 The size of the circle represents the mean frequency of the war lexicon for the period and the color of the circle represents the number of movies produced during the period. 
 
 {: style="text-align: justify;"}
-We can see a general trend that more and more countries throughout the decades started to produced war-related movies proportionaly to all of their movie production, whereas the USA seems to seem constant proportionaly.
+We can see a general trend that more and more countries throughout the decades started to produced war-related movies proportionaly to all of their movie production, whereas the USA seems to seem constant proportionaly, due to the high number of movies produced in this country.
+
+{: style="text-align: justify;"}
+The topic of war is firstly only present in the United States and in Europe. From 1935 on, it exploses globally. In Asia, the frequency of war movies stays relatively constant from 1935 until today. Europe and sees a large peak in 1930s, which could be related to the influence of WWII.
 
 ### Analysis on war-related genres
 
