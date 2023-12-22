@@ -29,14 +29,14 @@ We will be using the [Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas
 {: style="text-align: justify;"}
 Hold on! Let's first take a look at our data, and start by seeing how many films have been produced through the years.
 
-<p align="center">
+<p style="text-align:center">
 <iframe src="movie_release_years.html" width="750px" height="400px" frameborder="0" position="relative">Genre plot</iframe>
 </p>
 
 {: style="text-align: justify;"}
 We clearly see the trend here: the movie industry has grown largely during the recent years, more specifically at the start of the 90s. What about country movie production? Which country is the biggest movie producer?
 
-<p align="center">
+<p style="text-align:center">
 <iframe src="top_10_countries.html" width="750px" height="400px" frameborder="0" position="relative">Genre plot</iframe>
 </p>
 
@@ -70,7 +70,7 @@ War appears clearly in the most reccurent topics. The word 'war' is also one of 
 ## War, war never changes...
 
 {: style="text-align: justify;"}
-<img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover;">
+<img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover; object-position: 0 10%;">
 
 
 
