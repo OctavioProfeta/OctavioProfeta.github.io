@@ -5,7 +5,7 @@ cover-img: /assets/img/banniere3.png
 ---
 
 {: style="text-align: justify;"}
-Here, at WorkingTeam2023™, we are interested in major societal fears. So, what are we *afraid* of ? We are not talking about fear of spiders or the fear of heights, we are talking about major societal fears. [The Chapman University](https://www.chapman.edu/wilkinson/research-centers/babbie-center/survey-american-fears.aspx) conducts yearly studies based on surveys in the United States of America, giving us a starting point for an answer. By taking a look at the results of the surveys from 2018 to 2023, we have chosen to consider 7 majors global fears, which are the following:
+Here, at WorkingTeam2023™, we are interested in major societal fears. So, what are we *afraid* of ? We are not talking about fear of spiders or fear of heights, we are talking about major societal fears. [The Chapman University](https://www.chapman.edu/wilkinson/research-centers/babbie-center/survey-american-fears.aspx) conducts yearly studies based on surveys in the United States of America, giving us a starting point for an answer. By taking a look at the results of the surveys from 2018 to 2023, we have chosen to consider 7 majors global fears, which are the following:
 *   War
 *   Climate Change
 *   Terrorism
@@ -15,7 +15,7 @@ Here, at WorkingTeam2023™, we are interested in major societal fears. So, what
 *   Aliens
 
 {: style="text-align: justify;"}
-Now that we chose what fears we want to dig into, how are these fears depicted in movies? How do they evolve chronogically? Are fears covered in movies related to historical, political or cultural events? What is the geographical distribution of these fears? What patterns emerge in the portrayal of fears, are there recurring combinations of fears depicted on screen? Do movies addressing societal fears tend to have a higher IMDb rating compared to those exploring other themes? And finally, what evolution of the society can we depict from all the previous result?
+Now that we chose what fears we want to dig into, how are these fears depicted in movies? How do they evolve chronologically? Are fears covered in movies related to historical, political or cultural events? What is the geographical distribution of these fears? What patterns emerge in the portrayal of fears, are there recurring combinations of fears depicted on screen? Do movies addressing societal fears tend to have a higher IMDb rating compared to those exploring other themes? And finally, what evolution of the society can we depict from all the previous result?
 
 In brief, **how are major societal fears depicted in the movie industry ?**
 
@@ -41,12 +41,12 @@ We clearly see the trend here: the movie industry has grown largely during the r
 </p>
 
 {: style="text-align: justify;"}
-No surprises here, the USA is by far the most productive country followed by India and the United Kingdom, almost tied for second place. The USA are responsible for more than 39% percent of the movie produced! We need to keep in mind that the analysis we will be doing will be biased towards american movies.
+No surprise here, the USA is by far the most productive country followed by India and the United Kingdom, almost tied for second place. The USA are responsible for more than 39% percent of the movies produced! We need to keep in mind that the analysis we will be doing will be biased towards american movies.
 
 ## Let's get down to business
 
 {: style="text-align: justify;"}
-Let's start by analysing which are the recurrent topic in our dataset. By using topic detection algorithms on the plot summaries, we can extract major subjects from the movie plots. To get better results, we performed several cleaning step on the plot summaries. Looking for 8 topics yields the best results:
+Let's start by analysing which are the recurrent topics in our dataset. By using topic detection algorithms on the plot summaries, we can extract major subjects from the movie plots. To get better results, we performed several cleaning steps on the plot summaries. Looking for 8 topics yields the best results:
 
 <iframe src="lda.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
 
@@ -112,12 +112,12 @@ Again by setting λ to 0.5 we can distingish 4 topics:
 * Crime 
 * Family and/or Science-fiction
 
-It is hard to point out other topics about societal fears. This is most certainly due to the movies on other themes, which is represents a higher number of movies than movies on major fears. We need another way to analyse the presence of societal fears in movies.
+It is hard to point out other topics about societal fears. It seems that we need to look for the fears we want to analyze in the plot summaries. Thankfully, the wonderful world of Natural Language Processing is here to help us! Let's build some lexicons!
 
 ## \*Insert funny phrase about lexicons here\*
 
 {: style="text-align: justify;"}
-Okay, let's get specific then. Since we already know which themes we want to explore in the plot summaries, we'll create adapted and representative lexicons for each of them. We will then use these lexicons to extract the frequency of each theme in the plot summaries. Here are some examples of the lexicons we created:
+Okay, let's get specific then. Since we already know which themes we want to explore in the plot summaries, we'll create an adapted and representative lexicon for each of them. We will then use these lexicons to extract the frequency of each theme in the plot summaries. Here are some examples of the lexicons we created:
 
 *   War : '*mercenary*', '*bloodshed*', '*warfare*'
 *   Climate Change :'*volcanoes*', '*contamined*', '*environemental*'
@@ -128,7 +128,7 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 *   Aliens : '*martian*', '*universe*', '*ufo*'
 
 {: style="text-align: justify;"}
-This way, each movie gets assigned with a frequency metric which measures the proximity of that movie to each one of the themes. Let's see how those frequencies vary throughout the decenies:
+This way, each movie gets assigned with a frequency metric which measures the proximity of that movie to each one of the themes. #TODO EXPLAIN FREQUENCY Let's see how those frequencies vary throughout the decenies:
 
 <p style="text-align:center">
 <iframe src="evol_freq.html" width="750px" height="500px" frameborder="0"></iframe>
@@ -176,7 +176,7 @@ In the introduction, we pointed out that the USA and India are the two most prod
 </p>
 
 {: style="text-align: justify;"}
-We observe quite directly that the frequency of the war lexicons is related to major wars in which the USA was involved. For both the first and second World War, peaks in frequency are observable. One should take into account that the peaks are shifted towards the left since we calculate the mean frequency for 5-year periods and we took the lower bound. We can also observe that the freqency drops at the end of each major war. Concerning the Vietnam war, the peak is less present than for the other wars. However, the frequency declines more gently during this period.
+We observe quite directly that the frequency of the war lexicons is related to major wars in which the USA was involved. For both the first and second World War, peaks in frequency are observable. One should take into account that the peaks are shifted towards the left since we calculate the mean frequency for 5-year periods and we took the lower bound. We can also observe that the frequency drops at the end of each major war. Concerning the Vietnam war, the peak is less present than for the other wars. However, the frequency declines more gently during this period.
 
 {: style="text-align: justify;"}
 These findings suggest that a ongoing war may impact the content and number of war-related movies that are being produced. This is not surprising, since the movie industry is a reflection of the society. We also see that the end of a war is followed by a decline in the frequency of the war lexicon. This could be explained by the fact that the public is not interested in war themed movies anymore and directors have less interest in producing them. It is also interesting to see the smoother decline of the frequency during the Vietnam War, which could be explained by the long duration of this war.
@@ -200,16 +200,14 @@ Let's continue the analysis based on war-related genres. To do so, we've selecte
 #### Sentiment analysis
 
 {: style="text-align: justify;"}
-
-{: style="text-align: justify;"}
-Okay, war is bad, we've said it before. But is it really ? Let's take a look at the compound sentiment of the movies that have a war-related genre, compared to all other movies:
+Okay, war is bad, we've said it before. But is it really ? Let's take a look at the compound sentiment of the movie plots that have a war-related genre, compared to all other movie plots:
 
 <p style="text-align:center">
 <iframe src="compound_sentiment.html" width="750px" height="500px" frameborder="0"></iframe>
 </p>
 
 {: style="text-align: justify;"}
-Well... it *is* really bad. We can first point out that, generaly, movies tend to have a more negative compound sentiment to them. However, we can cleary see that war-related movie perfom worse than other movies when it comes to happy stuff. Not only do they have less possitve sentiment in general, they also have more movies that are extremely negative. Fair enough, war is not a happy subject. Bummer.
+Well... it *is* really bad. We can first point out that, generaly, movies tend to have a more negative compound sentiment to them. However, we can cleary see that war-related movies perfom worse than other movies when it comes to happy stuff. Not only do they have less positive sentiment in general, they also have more movies that are extremely negative. Fair enough, war is not a happy subject. Bummer.
 
 #### Ratings
 
