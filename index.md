@@ -137,13 +137,19 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 <!-- <p align="center">
 <iframe src="test_map2.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
 </p> -->
+{: style="text-align: justify;"}
+We see some interesting trends with 'war' and 'terrorism' following each other closely (besties!!), and taking the lead in term of lexicon frequency in the recent years. 
 
+## one kiss is all it takes
+
+By running sentiment analysis
 
 <p style="text-align:center">
 <img src="assets/img/graph.jpeg">
 </p>
 
-We see some interesting trends with 'war' and 'terrorism' following each other closely (besties!!), and taking the lead in term of lexicon frequency in the recent years
+Some really interesting findings appear : 'war' and 'terrorism' are far from each other, which means that the lexicons they respectively use are pretty different from one another, but at the same time we see a strong link between them, meaning they share a lot of ??????
+
 ## Case study : War movies
 
 {: style="text-align: justify;"}
