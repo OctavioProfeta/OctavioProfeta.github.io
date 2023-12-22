@@ -148,7 +148,7 @@ It seems that the main wars in which India was directly involved in had less imp
 
 Let's continue the analysis based on war-related genres. To do so, we've selected movies that have an assigned genre which contains the term 'war'. 
 
-We first compare the compound sentiment of war-related movies to all other ones :
+Okay, war is bad, we've said it before, but is it really ? Let's take a look at the compound sentiment of the movies that have a war-related genre, compared to all other movies :
 
 <p align="center">
 <iframe src="compound_sentiment.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
