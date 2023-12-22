@@ -134,9 +134,6 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 <iframe src="evol_freq.html" width="750px" height="500px" frameborder="0"></iframe>
 </p>
 
-<!-- <p align="center">
-<iframe src="test_map2.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
-</p> -->
 
 {: style="text-align: justify;"}
 We see some interesting trend with 'war' and 'terrorism' following each other closely, and taking the lead in term of lexicon frequency in the recent years. 
@@ -164,6 +161,15 @@ Also interesting to note is the proximity of 'war' and 'climate change', and the
 
 {: style="text-align: justify;"}
 We finally see that those categories all have a strong negative compound sentiment, which implies fear! How thrilling!
+
+## I can show you the woooorld...
+
+...wait wrong movie. Sorry. But we can actually show the world ! Let's see 
+
+<p style="text-align:center">
+<iframe src="world_map_all.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
+</p>
+
 
 ## Case study: War movies
 
@@ -221,8 +227,6 @@ So, we've seen war is not a postive subject. But is it a good subject ? Let's ta
 <p style="text-align:center">
 <iframe src="boxplot_average_rating.html" width="560px" height="390px" frameborder="0" scrolling="no" position='relative'></iframe>
 </p>
-{: style="text-align: center; font-size: 0.5em;"}
-t-test pvalue
 
 {: style="text-align: justify;"}
 We see that on average, war-related movies are better rated than the average movie. Is that result statistically significant ? Doing a paired t-test on our data yields a p-value smaller than 0.05, meaning that under the 95% confidence interval, we can reject the null hypothesis that the average rating of war-related movies is equal to the average rating of all movies. This means that war-related movies are indeed better rated than the average movie.
