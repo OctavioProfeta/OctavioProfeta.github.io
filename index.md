@@ -70,7 +70,7 @@ War appears clearly in the most reccurent topics. The word 'war' is also one of 
 ## War, war never changes...
 
 {: style="text-align: justify;"}
-<img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover; object-position: 0 25%;">
+<img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover; object-position: 0 30%;">
 
 
 
@@ -89,6 +89,11 @@ Here, again by setting λ to 0.5 we can distingish 4 topics :
 
 {: style="text-align: justify;"}
 We can see that the second World War is the most represented war in movies, with 2 topics out of 4. This is not surprising, as the second World War can be considered the most important war in the history of mankind. As war is one of the main societal fear depicted in movies, we'll take a more specific look on war as a societal fear in movies later on.
+
+
+{: style="text-align: justify;"}
+<img src="/assets/img/war_end.jpg" style="width: 750px; height: 300px; object-fit: cover;">
+
 
 ## Make movies, not war
 
