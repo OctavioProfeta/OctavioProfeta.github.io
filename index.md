@@ -70,13 +70,13 @@ War appears clearly in the most reccurent topics. The word 'war' is also one of 
 ## War, war never changes...
 
 {: style="text-align: justify;"}
-<img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover; object-position: 0 10%;">
+<img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover; object-position: 0 5%;">
 
 
 
 ...or does it ? Let's do a topic detection on the plot summaries of movies which can be classified as war movies, by having the 'war' term appearing in the genre list. Looking for 4 topics yields the best results :
 
-<iframe src="lda_genre_war.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="lda_genre_war.html" width="750px" height="860px" frameborder="0">Genre plot</iframe>
 
 {: style="text-align: justify;"}
 Here, again by setting λ to 0.5 we can distingish 4 topics :
@@ -95,7 +95,7 @@ We can see that the second World War is the most represented war in movies, with
 {: style="text-align: justify;"}
 Alright, alright, we get it, war is a very present theme. Let's talk about something happier; let's take a look at the rest of the movies which are not considered as war movies. Again, we apply a topic detection algorithm on the plot summaries. Looking for 4 topics yields the best results :
 
-<iframe src="lda_genre_not_war.html" width="750px" height="860px" frameborder="0" position="relative">Genre plot</iframe>
+<iframe src="lda_genre_not_war.html" width="750px" height="860px" frameborder="0">Genre plot</iframe>
 
 {: style="text-align: justify;"}
 Again by setting λ to 0.5 we can distingish 4 topics :
