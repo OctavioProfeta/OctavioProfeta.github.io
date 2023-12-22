@@ -167,7 +167,7 @@ We finally see that those categories all have a strong negative compound sentime
 ...wait, wrong movie. Sorry. But we can actually show the world ! Let's see jwehf
 
 
-<iframe src="world_map_all.html" width="900px" height="500px"></iframe>
+<iframe src="world_map_all.html" width="900px" height="500px" frameborder="0></iframe>
 
 
 
