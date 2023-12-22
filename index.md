@@ -119,13 +119,13 @@ It is hard to point out other topics about societal fears. This is most certainl
 {: style="text-align: justify;"}
 Okay, let's get specific then. Since we already know which themes we want to explore in the plot summaries, we'll create adapted and representative lexicons for each of them. We will then use these lexicons to extract the frequency of each theme in the plot summaries. Here are some examples of the lexicons we created:
 
-*   War : '*mercenary*', '*bloodshed*', '*warfare*', '*military*'
-*   Climate Change :'*volcanoes*', '*contamined*', '*environemental*', '*weather*'
-*   Terrorism : '*bombings*', '*government*', '*kidnapping*', '*homicide*'
-*   Pandemics : '*pandemic*', '*catastophe*', '*immune*', '*virus*'
-*   Economical Collapse : '*economic_crisis*', '*financial_collapse*', '*recession*', '*depression*'
-*   Technological Advancement : '*robotics*', '*artificial_intelligence*', '*automation'*, '*data_science*' (yes, very scary indeed!)
-*   Aliens : '*extraterrestrial*', '*alien*', '*UFO*', '*alien_abduction*'
+*   War : '*mercenary*', '*bloodshed*', '*warfare*'
+*   Climate Change :'*volcanoes*', '*contamined*', '*environemental*'
+*   Terrorism : '*bombings*', '*government*', '*kidnapping*'
+*   Pandemics : '*pandemic*', '*catastophe*', '*immune*'
+*   Economical Collapse : '*economy*', '*loans*', '*recession*'
+*   Technological Advancement : '*robotics*', '*data*', '*science*' (yes, those are very scary indeed!)
+*   Aliens : '*martian*', '*universe*', '*ufo*'
 
 {: style="text-align: justify;"}
 This way, each movie gets assigned with a frequency metric which measures the proximity of that movie to each one of the themes. Let's see how those frequencies vary throughout the decenies:
@@ -137,12 +137,13 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 <!-- <p align="center">
 <iframe src="test_map2.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
 </p> -->
+
 {: style="text-align: justify;"}
-We see some interesting trends with 'war' and 'terrorism' following each other closely, and taking the lead in term of lexicon frequency in the recent years. 
+We see some interesting trend with 'war' and 'terrorism' following each other closely, and taking the lead in term of lexicon frequency in the recent years. 
 
-## one kiss is all it takes
+## jsp
 
-By running sentiment analysis
+By running sentiment analysis on our data, we found the compound sentiment of our fear categories:
 
 <p style="text-align:center">
 <img src="assets/img/graph.jpeg">
@@ -157,6 +158,8 @@ This graph should be interpreted the following way:
 One really interesting finding appears: 'war' and 'terrorism' are far from each other, which means that their lexicons are pretty different from one another, but at the same time we see a strong link between them, meaning they share a lot of movies. This resonates with the trend we've seen just before, with them following approximatively the same trends.
 
 Also interesting to note is the proximity of 'war' and 'climate change', and the proximity of 'terrorism' and 'economical collapse', which means they share a lot in term of lexicon. 
+
+We finally see that those categories all have a strong negative compound sentiment, which might imply actual fear! How thrilling!
 
 ## Case study: War movies
 
