@@ -142,7 +142,7 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 We see some interesting trend with 'war' and 'terrorism' following each other closely, and taking the lead in term of lexicon frequency in the recent years. 
 
 ## jsp
-
+{: style="text-align: justify;"}
 By running sentiment analysis on our data, we found the compound sentiment of our fear categories:
 
 <p style="text-align:center">
@@ -159,9 +159,11 @@ This graph should be interpreted the following way:
 {: style="text-align: justify;"}
 One really interesting finding appears: 'war' and 'terrorism' are far from each other, which means that their lexicons are pretty different from one another, but at the same time we see a strong link between them, meaning they share a lot of movies. This resonates with the trend we've seen just before, with them following approximatively the same trends.
 
-Also interesting to note is the proximity of 'war' and 'climate change', and the proximity of 'terrorism' and 'economical collapse', which means they share a lot in term of lexicon. 
+{: style="text-align: justify;"}
+Also interesting to note is the proximity of 'war' and 'climate change', and the proximity of 'terrorism' and 'economical collapse', which means their lexicon are quite similar.
 
-We finally see that those categories all have a strong negative compound sentiment, which might imply fear! How thrilling!
+{: style="text-align: justify;"}
+We finally see that those categories all have a strong negative compound sentiment, which implies fear! How thrilling!
 
 ## Case study: War movies
 
@@ -242,3 +244,5 @@ asdkasopdè
 *   [Economical Collapse](https://www.futura-sciences.com/sciences/questions-reponses/epoque-contemporaine-sont-consequences-krach-1929-5526/)
 *   [Technological Advancement](https://ticktocktech.com/blog/2021/08/18/how-technology-is-changing-the-art-world/)
 *   [Aliens](https://fineartamerica.com/featured/alien-invasion-03-matthias-hauser.html)
+*   [War begins](https://www.pinterest.fr/pin/11822017755734478/)
+*   [War ends](https://www.pinterest.fr/pin/563794447116801159/)
