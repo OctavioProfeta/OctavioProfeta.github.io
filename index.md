@@ -70,10 +70,8 @@ War appears clearly in the most reccurent topics. The word 'war' is also one of 
 ## War, war never changes...
 
 {: style="text-align: justify;"}
-<figure>
 <img src="/assets/img/war_begin.jpg" style="width: 750px; height: 300px; object-fit: cover; object-position: 0 30%;">
-<figcaption><a href="https://www.pinterest.fr/pin/11822017755734478/"></a></figcaption>
-</figure>
+
 
 
 ...or does it ? Let's do a topic detection on the plot summaries of movies which can be classified as war movies, by having the 'war' term appearing in the genre list. Looking for 4 topics yields the best results :
@@ -94,10 +92,8 @@ We can see that the second World War is the most represented war in movies, with
 
 
 {: style="text-align: justify;"}
-<figure>
+
 <img src="/assets/img/war_end.jpg" style="width: 750px; height: 300px; object-fit: cover;">
-<figcaption><a href="https://www.pinterest.fr/pin/563794447116801159/"></a></figcaption>
-</figure>
 
 
 ## Make movies, not war
