@@ -107,8 +107,8 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 {: style="text-align: justify;"}
 This way, each movie gets assigned with a frequency metric which measures the proximity of that movie to each one of the themes. Let's see how those frequencies vary throughout the decenies :
 
-<p align="center">
-<iframe src="evolution_of_frequency.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
+<p style="text-align:center">
+<iframe src="evolution_of_frequency.html" width="750px" height="500px" frameborder="0"></iframe>
 </p>
 
 <!-- <p align="center">
@@ -116,7 +116,7 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 </p> -->
 
 
-<p align="center">
+<p style="text-align:center">
 <img src="assets/img/graph.png">
 </p>
 
@@ -131,7 +131,7 @@ As seen in our first topic detection, war seems to be is the most represented so
 In the introduction, we pointed out that the USA and India are the two most productive countries in the movie industry. Let's see how the frequency of the war theme varies in the movies produced by these two countries, by starting with the USA :
 
 <p style="text-align:center">
-<iframe src="usa_war.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
+<iframe src="usa_war.html" width="750px" height="500px" frameborder="0"></iframe>
 </p>
 
 {: style="text-align: justify;"}
@@ -145,7 +145,7 @@ Finally, we can also observe that the frequency of the war lexicon is not null d
 Let's now take a look at the frequency of the war lexicon in the movies produced by India :
 
 <p style="text-align:center">
-<iframe src="india_war.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
+<iframe src="india_war.html" width="750px" height="500px" frameborder="0"></iframe>
 </p>
 
 {: style="text-align: justify;"}
@@ -164,7 +164,7 @@ Let's continue the analysis based on war-related genres. To do so, we've selecte
 Okay, war is bad, we've said it before. But is it really ? Let's take a look at the compound sentiment of the movies that have a war-related genre, compared to all other movies :
 
 <p style="text-align:center">
-<iframe src="compound_sentiment.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
+<iframe src="compound_sentiment.html" width="750px" height="500px" frameborder="0"></iframe>
 </p>
 
 {: style="text-align: justify;"}
@@ -176,8 +176,10 @@ Okaaaaay... it *is* really bad. We can first point out that, generaly, movies te
 So, we've seen war is not a postive subject. But is it a good subject ? Let's take a look at the ratings of war-related movies, compared to all movies :
 
 <p style="text-align:center">
-<iframe src="boxplot_average_rating.html" width="560px" height="400px"></iframe>
+<iframe src="boxplot_average_rating.html" width="560px" height="390px" frameborder="0"></iframe>
 </p>
 
 {: style="text-align: justify;"}
 We see that on average, war-related movies are better rated than the average movie. Is that result statistically significant ? Doing a paired t-test on our data yields a p-value smaller than 0.05, meaning that under the 95% confidence interval, we can reject the null hypothesis that the average rating of war-related movies is equal to the average rating of all movies. This means that war-related movies are indeed better rated than the average movie.
+
+asd
