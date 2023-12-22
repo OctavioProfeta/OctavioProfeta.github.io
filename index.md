@@ -104,6 +104,7 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 *   Technological Advancement : '*robotics*', '*artificial_intelligence*', '*automation'*, '*data_science*' (yes, very scary indeed!)
 *   Aliens : '*extraterrestrial*', '*alien*', '*UFO*', '*alien_abduction*'
 
+{: style="text-align: justify;"}
 This way, each movie gets assigned with a frequency metric which measures the proximity of that movie to each one of the themes. Let's see how those frequencies vary throughout the decenies :
 
 <p align="center">
@@ -121,37 +122,46 @@ This way, each movie gets assigned with a frequency metric which measures the pr
 
 ## Case study : War movies
 
+{: style="text-align: justify;"}
 As seen in our first topic detection, war seems to be is the most represented societal fear in movies. Let's take a closer look at it. For this category, we can take a look at both the lexicon of war we've created earlier, and war-related genres. This is only possible for the war theme, since it's the only fear category which has genres associated with it.
 
 ### Analysis on the war lexicon
 
+{: style="text-align: justify;"}
 In the introduction, we pointed out that the USA and India are the two most productive countries in the movie industry. Let's see how the frequency of the war theme varies in the movies produced by these two countries, by starting with the USA :
 
 <p align="center">
 <iframe src="usa_war.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
 </p>
 
+{: style="text-align: justify;"}
 We observe quite directly that the frequency of the war lexicons is related to major wars in which the USA was involved. For both the first and second World War, peaks in frequency are observable. One should take into account that the peaks are shifted towards the left since we calculate the mean frequency for 5-year periods. We can also observe that the freqency drops at the end of each major war. Concerning the Vietnam war, the peak is less present than for the other wars. However, the frequency declines more gently during this period.
 
+{: style="text-align: justify;"}
 These findings suggest that a ongoing war may impact the content and number of war-related movies that are being produced. This is not surprising, since the movie industry is a reflection of the society. We also see that the end of a war is followed by a decline in the frequency of the war lexicon. This could be explained by the fact that the public is not interested in war themed movies anymore and directors have less interest in producing them. It is also interesting to see the smoother decline of the frequency during the Vietnam War, which could be explained by the long duration of this war.
 Finally, we can also observe that the frequency of the war lexicon is not null during periods of peace. This could be explained by the fact that the war theme is not only related to the war itself, but also to the consequences of war.
 
+{: style="text-align: justify;"}
 Let's now take a look at the frequency of the war lexicon in the movies produced by India :
 
 <p align="center">
-<iframe src="inda_war.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
+<iframe src="india_war.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
 </p>
 
+{: style="text-align: justify;"}
 It seems that the main wars in which India was directly involved in had less impact on the frequency of the war lexicon than for the USA. We can still se that the major increase of the frequency of the war lexicon happens after World War 2, which might be explained by the fact that India was a British colony during this period, and that the war had a major impact on the country. One explaination for the lower frequency of the war lexicon could be that the major movie producer for India, Bollywood, is more focused on the production of musicals and comedies.
 
 ### Analysis on war-related genres
 
+{: style="text-align: justify;"}
 Let's continue the analysis based on war-related genres. To do so, we've selected movies that have an assigned genre which contains the term 'war'. 
 
-Okay, war is bad, we've said it before, but is it really ? Let's take a look at the compound sentiment of the movies that have a war-related genre, compared to all other movies :
+{: style="text-align: justify;"}
+Okay, war is bad, we've said it before. But is it really ? Let's take a look at the compound sentiment of the movies that have a war-related genre, compared to all other movies :
 
 <p align="center">
 <iframe src="compound_sentiment.html" width="750px" height="500px" frameborder="0" position="relative"></iframe>
 </p>
 
-Okaaaaay... it is *really* bad. We can first point out that, generaly, movies tend to have a more negative compound sentiment to them. However, we can cleary see that war-related movie perfom worse than other movies when it comes to happy stuff. Not only do they have less possitve sentiment in general, they also have more movies that are extremely negative. Fair enough, war is not a happy subject. Bummer.
+{: style="text-align: justify;"}
+Okaaaaay... it *is* really bad. We can first point out that, generaly, movies tend to have a more negative compound sentiment to them. However, we can cleary see that war-related movie perfom worse than other movies when it comes to happy stuff. Not only do they have less possitve sentiment in general, they also have more movies that are extremely negative. Fair enough, war is not a happy subject. Bummer.
