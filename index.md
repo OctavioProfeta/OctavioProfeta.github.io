@@ -105,7 +105,7 @@ Okay, let's get specific then. Since we already know which themes we want to exp
 
 
 <p align="center">
-<iframe src="test_map.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
+<iframe src="test_map2.html" width="600px" height="500px" frameborder="0" position="relative"></iframe>
 </p>
 
 
