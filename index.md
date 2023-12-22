@@ -274,6 +274,9 @@ So, we've seen war is not a postive subject. But is it a good subject ? Let's ta
 {: style="text-align: justify;"}
 We see that on average, war-related movies are better rated than the average movie. Is that result statistically significant ? Doing a paired t-test on our data yields a p-value smaller than 0.05, meaning that under the 95% confidence interval, we can reject the null hypothesis that the average rating of war-related movies is equal to the average rating of all movies. This means that war-related movies are indeed better rated than the average movie.
 
+{: style="text-align: justify;"}
+This result is quite surprising considering our earlier analysis on the average rating for war movies based on the lexicons. Indeed, we had pointed out that war lexicon movies had a statistically significant lower average rating than all movies. This can be explained by the fact that the subset of war movies based on genre is different than the subset of war movies based on the lexicon. Lexicon war movies include a higher number of movies. Furthermore, we don’t have any information on how the genre is assigned to each movie. Therefore, movies about war do not necessarily have an assigned war-related genre. This highlights the importance of taking into account both lexicons and movies genres.
+
 ## Conclusion
 
 {: style="text-align: justify;"}
@@ -287,7 +290,7 @@ In conclusion, this project not only deepened our comprehension of how data anal
 
 -----------------------------------------------------
 
-###### Sources for the images used in the banner
+###### Sources for the images used in this webstory
 {: style="text-align: center;"}
 *   [War](https://www.dvidshub.net/image/1934815/digital-art-still-within-me-second-place)
 *   [Climate Change](https://fineartamerica.com/featured/climate-change-robert-orinski.html)
