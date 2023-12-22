@@ -231,14 +231,23 @@ So, we've seen war is not a postive subject. But is it a good subject ? Let's ta
 {: style="text-align: justify;"}
 We see that on average, war-related movies are better rated than the average movie. Is that result statistically significant ? Doing a paired t-test on our data yields a p-value smaller than 0.05, meaning that under the 95% confidence interval, we can reject the null hypothesis that the average rating of war-related movies is equal to the average rating of all movies. This means that war-related movies are indeed better rated than the average movie.
 
-### War movies in the world
+#### More beautiful data: War movies in the world
 
 {: style="text-align: justify;"}
-Let's take a look at the evolution of the war lexicon mean frequency over a 5-year period in the world:
+Let's take a look at the evolution of the war lexicon mean frequency over a 10-year period in the world:
 
 <p style="text-align:center">
 <iframe src="worldmap_time_country.html" width="750px" height="500px" frameborder="0"></iframe>
 </p>
+
+<p style="text-align:center">
+<iframe src="worldmap_time_continent.html" width="750px" height="500px" frameborder="0"></iframe>
+</p>
+
+{: style="text-align: justify;"}
+The size of the circle represents the mean frequency of the war lexicon for the period and the color of the circle represents the number of movies produced during the period. 
+
+We can see a general trend that more and more countries throughout the decades started to produced war-related movies proportionaly to all of their movie production, whereas the USA seems to seem constant proportionaly.
 
 ## Conclusion
 
